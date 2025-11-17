@@ -12,22 +12,25 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["LSDM.Backend/LSDM.Backend.csproj", "LSDM.Backend/"]
-RUN dotnet restore "./LSDM.Backend/LSDM.Backend.csproj"
+COPY ["LSDM.Presentation/LSDM.Presentation.csproj", "LSDM.Presentation/"]
+COPY ["LSDM.Application/LSDM.Application.csproj", "LSDM.Application/"]
+COPY ["LSDM.Domain/LSDM.Domain.csproj", "LSDM.Domain/"]
+COPY ["LSDM.Infrastracture/LSDM.Infrastracture.csproj", "LSDM.Infrastracture/"]
+RUN dotnet restore "./LSDM.Presentation/LSDM.Presentation.csproj"
 COPY . .
-WORKDIR "/src/LSDM.Backend"
-RUN dotnet build "./LSDM.Backend.csproj" -c $BUILD_CONFIGURATION -o /app/build
+WORKDIR "/src/LSDM.Presentation"
+RUN dotnet build "./LSDM.Presentation.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # Ten etap służy do publikowania projektu usługi do skopiowania do etapu końcowego
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./LSDM.Backend.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./LSDM.Presentation.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 # Ten etap jest używany w środowisku produkcyjnym lub w przypadku uruchamiania z programu VS w trybie regularnym (domyślnie, gdy nie jest używana konfiguracja debugowania)
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "LSDM.Backend.dll"]
+ENTRYPOINT ["dotnet", "LSDM.Presentation.dll"]
 
 USER root
 RUN apt-get update && apt-get install -y curl

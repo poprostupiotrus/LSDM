@@ -1,0 +1,16 @@
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\bin\Debug\net8.0\LSDM.Application.deps.json
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\bin\Debug\net8.0\LSDM.Application.dll
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\bin\Debug\net8.0\LSDM.Application.pdb
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\bin\Debug\net8.0\LSDM.Domain.dll
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\bin\Debug\net8.0\LSDM.Domain.pdb
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\obj\Debug\net8.0\LSDM.Application.csproj.AssemblyReference.cache
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\obj\Debug\net8.0\LSDM.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\obj\Debug\net8.0\LSDM.Application.AssemblyInfoInputs.cache
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\obj\Debug\net8.0\LSDM.Application.AssemblyInfo.cs
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\obj\Debug\net8.0\LSDM.Application.csproj.CoreCompileInputs.cache
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\obj\Debug\net8.0\LSDM.Application.sourcelink.json
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\obj\Debug\net8.0\LSDM.App.6D25C7CE.Up2Date
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\obj\Debug\net8.0\LSDM.Application.dll
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\obj\Debug\net8.0\refint\LSDM.Application.dll
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\obj\Debug\net8.0\LSDM.Application.pdb
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Application\obj\Debug\net8.0\ref\LSDM.Application.dll
