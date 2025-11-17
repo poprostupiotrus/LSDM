@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LSDM.Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6f9ffd58d51f286e2e322faee662156de02ad37")]
 [assembly: System.Reflection.AssemblyProductAttribute("LSDM.Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LSDM.Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

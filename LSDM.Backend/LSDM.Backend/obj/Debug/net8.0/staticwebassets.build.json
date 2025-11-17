@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "I3zKVetJs1D3XGHaSd41nxGVNHZjX65maMleKiArBoQ=",
+  "Source": "LSDM.Backend",
+  "BasePath": "_content/LSDM.Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
