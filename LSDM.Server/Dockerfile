@@ -9,7 +9,22 @@ RUN apt-get update && apt-get install -y \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /ragemp
+RUN adduser \
+    --system \
+    --group \
+    --no-create-home \
+    --shell /usr/sbin/nologin \
+    ragemp
+
+RUN mkdir -p /opt/ragemp
+
+WORKDIR /opt/ragemp
+
 COPY . .
 
+RUN chown -R ragemp:ragemp /opt/ragemp
+
+USER ragemp
+
 ENTRYPOINT ["./ragemp-server"]
+EXPOSE 22005
