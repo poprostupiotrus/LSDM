@@ -16,13 +16,9 @@ RUN adduser \
     --shell /usr/sbin/nologin \
     ragemp
 
-RUN mkdir -p /opt/ragemp
-
 WORKDIR /opt/ragemp
 
-COPY . .
-
-RUN chown -R ragemp:ragemp /opt/ragemp
+COPY --chown=ragemp:ragemp . .
 
 USER ragemp
 
