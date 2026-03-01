@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LSDM.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f2ca929eef149c48dc07dcea74d39dfd02de2c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08cf158f6f98f8f3e18bc5fa9750f3a5f0f4e6fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("LSDM.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LSDM.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,3 +10,4 @@ C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\LSD
 C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\refint\LSDM.Domain.dll
 C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\LSDM.Domain.pdb
 C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\ref\LSDM.Domain.dll
+C:\Users\komputerrozy\Desktop\LSDM\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\LSDM.Domain.csproj.AssemblyReference.cache

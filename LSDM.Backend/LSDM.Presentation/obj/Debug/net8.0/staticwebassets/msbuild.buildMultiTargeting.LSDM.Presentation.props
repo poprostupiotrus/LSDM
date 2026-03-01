@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LSDM.Presentation.props" />
+</Project>
