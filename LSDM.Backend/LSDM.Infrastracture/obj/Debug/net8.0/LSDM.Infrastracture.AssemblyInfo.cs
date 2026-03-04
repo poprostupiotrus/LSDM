@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LSDM.Infrastracture")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08cf158f6f98f8f3e18bc5fa9750f3a5f0f4e6fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c61e9b6fb335d3df7b67ddbf5f8136003e6ae0fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("LSDM.Infrastracture")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LSDM.Infrastracture")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

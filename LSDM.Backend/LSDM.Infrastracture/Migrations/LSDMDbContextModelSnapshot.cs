@@ -22,6 +22,66 @@ namespace LSDM.Infrastracture.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("LSDM.Domain.Entities.Ban", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("BannedByUserId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime?>("EndDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Reason")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BannedByUserId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Bans");
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.BanIdentifier", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BanId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Value")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BanId");
+
+                    b.ToTable("BanIdentifiers");
+                });
+
             modelBuilder.Entity("LSDM.Domain.Entities.LSDMUser", b =>
                 {
                     b.Property<string>("Id")
@@ -40,6 +100,18 @@ namespace LSDM.Infrastracture.Migrations
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("boolean");
+
+                    b.Property<string>("LastHwid")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("LastIpAddress")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("LastSocialClubId")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("boolean");
@@ -240,6 +312,36 @@ namespace LSDM.Infrastracture.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("LSDM.Domain.Entities.Ban", b =>
+                {
+                    b.HasOne("LSDM.Domain.Entities.LSDMUser", "BannedByUser")
+                        .WithMany("AssignedBans")
+                        .HasForeignKey("BannedByUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("LSDM.Domain.Entities.LSDMUser", "User")
+                        .WithMany("Bans")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("BannedByUser");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.BanIdentifier", b =>
+                {
+                    b.HasOne("LSDM.Domain.Entities.Ban", "Ban")
+                        .WithMany("BanIdentifiers")
+                        .HasForeignKey("BanId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Ban");
+                });
+
             modelBuilder.Entity("LSDM.Domain.Entities.LSDMUser", b =>
                 {
                     b.HasOne("LSDM.Domain.Entities.ServerRole", "ServerRole")
@@ -300,6 +402,18 @@ namespace LSDM.Infrastracture.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.Ban", b =>
+                {
+                    b.Navigation("BanIdentifiers");
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.LSDMUser", b =>
+                {
+                    b.Navigation("AssignedBans");
+
+                    b.Navigation("Bans");
                 });
 
             modelBuilder.Entity("LSDM.Domain.Entities.ServerRole", b =>

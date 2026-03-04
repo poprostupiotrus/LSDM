@@ -1,5 +1,3 @@
-version: '3.9'
-
 services:
   db:
     image: postgres:15
@@ -34,6 +32,9 @@ services:
       JWT_AUDIENCE: ${JWT_AUDIENCE}
       OWNER_USERNAME: ${OWNER_USERNAME}
       OWNER_PASSWORD: ${OWNER_PASSWORD}
+      OWNER_SOCIALCLUB_ID: ${OWNER_SOCIALCLUB_ID}
+      OWNER_HWID: ${OWNER_HWID}
+      OWNER_IP: ${OWNER_IP}
     depends_on:
       db:
         condition: service_healthy

@@ -8,9 +8,6 @@ namespace LSDM.Application.Authorization
 {
     public enum Permission
     {
-        BanPlayer,
-        KickPlayer,
-        GiveItem,
-        ManageRoles
+        BanPlayer
     }
 }

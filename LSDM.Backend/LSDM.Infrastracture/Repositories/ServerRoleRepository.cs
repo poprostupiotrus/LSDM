@@ -17,6 +17,14 @@ namespace LSDM.Infrastracture.Repositories
         {
             _context = context;
         }
+        public async Task<ServerRole> GetServerRoleByUserId(string userId)
+        {
+            return await _context.Users
+                        .AsNoTracking()
+                        .Where(u => u.Id == userId)
+                        .Select(u => u.ServerRole)
+                        .FirstAsync();
+        }
         public async Task<ServerRole?> GetServerRoleByName(string name)
         {
             return await _context.ServerRoles.FirstOrDefaultAsync(sr => sr.Name == name);

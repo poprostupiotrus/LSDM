@@ -9,6 +9,7 @@ namespace LSDM.Domain.Interfaces
 {
     public interface IServerRoleRepository
     {
+        Task<ServerRole> GetServerRoleByUserId(string userId);
         Task<ServerRole?> GetServerRoleByName(string name);
         Task<ServerRole> CreateAsync(ServerRole serverRole);
         Task CreateManyAsync(List<ServerRole> serverRoles);

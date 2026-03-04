@@ -22,6 +22,9 @@ namespace LSDM.Application.Authorization
             {
                 Roles.Admin,
                 new List<Permission>()
+                {
+                    Permission.BanPlayer
+                }
             },
             {
                 Roles.Owner,
