@@ -29,7 +29,7 @@ namespace LSDM.Application.Services
             return users.Select(user => user.ToUserDto()).ToList();
         }
 
-        public async Task<string> LoginAsync(string username, string password, string socialClubId, string hwid, string ipAddress)
+        public async Task<GameLoginUserResponseDto> LoginAsync(string username, string password, string socialClubId, string hwid, string ipAddress)
         {
             var user = await _userRepository.GetByUsernameAsync(username);
             if (user == null)
@@ -54,10 +54,17 @@ namespace LSDM.Application.Services
 
             await _userRepository.UpdateLastLoginIdentifiersAsync(user, socialClubId, hwid, ipAddress);
 
-            return _tokenService.GenerateToken(user);
+            var serverRole = await _serverRoleRepository.GetServerRoleByUserId(user.Id);
+
+            return new GameLoginUserResponseDto
+            {
+                Id = user.Id,
+                Role = serverRole.Name,
+                Token = _tokenService.GenerateToken(user)
+            };
         }
 
-        public async Task<string> RegisterAsync(string username, string password, string socialClubId, string hwid, string ipAddress)
+        public async Task<GameRegisterUserResponseDto> RegisterAsync(string username, string password, string socialClubId, string hwid, string ipAddress)
         {
             if (await _userRepository.ExistsByUserNameAsync(username))
                 throw new Exception("Użytkownik o tej nazwie już istnieje");
@@ -75,7 +82,12 @@ namespace LSDM.Application.Services
 
             await _userRepository.CreateAsync(user, password);
 
-            return _tokenService.GenerateToken(user);
+            return new GameRegisterUserResponseDto
+            {
+                Id = user.Id,
+                Role = playerRole.Name,
+                Token = _tokenService.GenerateToken(user)
+            };
         }
     }
 }

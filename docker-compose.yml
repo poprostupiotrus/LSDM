@@ -56,6 +56,8 @@ services:
     ports:
       - "22005:22005/udp"
       - "22006:22006"
+    environment:
+      API_URL: ${API_URL}
     depends_on:
       backend:
         condition: service_healthy

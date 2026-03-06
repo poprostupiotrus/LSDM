@@ -7,6 +7,7 @@ using LSDM.Infrastracture.Persistence.Seeders;
 using LSDM.Infrastracture.Repositories;
 using LSDM.Infrastracture.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -34,6 +35,24 @@ builder.Services.AddScoped<IBanRepository, BanRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IBanService, BanService>();
+
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.InvalidModelStateResponseFactory = context =>
+    {
+        var errors = context.ModelState
+            .Values
+            .SelectMany(v => v.Errors)
+            .Select(e => e.ErrorMessage)
+            .ToList();
+
+        return new BadRequestObjectResult(new
+        {
+            Message = "Wprowadzono nieprawid³owe dane.",
+            Errors = errors
+        });
+    };
+});
 
 builder.Services.AddAuthentication(options =>
 {
@@ -113,7 +132,7 @@ app.MapControllers();
 
 app.MapGet("/health", () =>
 {
-    Results.Ok(new { status = "Healthy" });
+    return Results.Ok(new { status = "Healthy" });
 });
 
 app.Run();

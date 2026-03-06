@@ -17,32 +17,28 @@ namespace LSDM.Presentation.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] GameRegisterUserDto dto)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
             try
             {
-                var token = await _userService.RegisterAsync(dto.UserName, dto.Password, dto.SocialClubId, dto.Hwid, dto.IpAddress);
-                return Ok(new { token });
+                var responseDto = await _userService.RegisterAsync(dto.UserName, dto.Password, dto.SocialClubId, dto.Hwid, dto.IpAddress);
+                return Ok(responseDto);
             }
             catch (Exception e)
             {
-                return BadRequest(new { error = e.Message });
+                return BadRequest(new { message = e.Message });
             }
         }
 
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] GameLoginUserDto dto)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
             try
             {
-                var token = await _userService.LoginAsync(dto.UserName, dto.Password, dto.SocialClubId, dto.Hwid, dto.IpAddress);
-                return Ok(new { Token = token });
+                var responseDto = await _userService.LoginAsync(dto.UserName, dto.Password, dto.SocialClubId, dto.Hwid, dto.IpAddress);
+                return Ok(responseDto);
             }
             catch(AccountBlockedException e)
             {
-                return StatusCode(423, new { error = e.Message });
+                return StatusCode(423, new { message = e.Message });
             }
             catch(UserBannedException e)
             {
@@ -53,7 +49,7 @@ namespace LSDM.Presentation.Controllers
             }
             catch (Exception e)
             {
-                return BadRequest(new { error = e.Message });
+                return BadRequest(new { message = e.Message });
             }
         }
     }

@@ -34,8 +34,6 @@ namespace LSDM.Presentation.Controllers
         [HttpPost("{userId}/ban")]
         public async Task<IActionResult> BanUser([FromRoute] string userId, [FromBody] BanUserRequestDto banUserRequestDto)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
             var bannedByUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             try
             {
