@@ -1,0 +1,131 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: transparent;
+}
+
+/* główne okno */
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 700px;
+    height: 80%;
+    max-height: 500px;
+    min-height: 300px;
+    background: #0a0a0a;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* nagłówek */
+.header {
+    background: #FFD000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8em 1em;
+    font-weight: bold;
+    color: #000;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+/* przycisk zamknięcia */
+.close {
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+/* lista graczy */
+.player-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;           /* równy odstęp między graczami */
+    padding: 0.5em;
+    overflow-y: auto;
+    min-height: 0;
+    scrollbar-width: thin;
+    scrollbar-color: #FFD000 transparent;
+}
+
+/* scroll dla Chrome / CEF */
+.player-list::-webkit-scrollbar {
+    width: 8px;
+    background: transparent;
+}
+
+.player-list::-webkit-scrollbar-thumb {
+    background-color: #FFD000;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+/* pojedynczy gracz */
+.player {
+    background: #151515;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 0.8em;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+/* nazwa gracza */
+.player-name {
+    font-size: 1rem;
+    color: white;
+    flex: 2;  /* zajmuje 2/4 szerokości */
+}
+
+/* ping gracza */
+.player-ping {
+    font-size: 0.9rem;
+    color: #aaa;
+    flex: 1;  /* zajmuje 1/4 szerokości */
+    text-align: center;
+}
+
+/* exp gracza */
+.player-exp {
+    font-size: 0.9rem;
+    color: #aaa;
+    flex: 1;  /* zajmuje 1/4 szerokości */
+    text-align: center;
+}
+
+/* ================================
+   Media Queries dla popularnych rozdzielczości
+================================= */
+
+/* 800x600 */
+@media screen and (max-width: 800px), screen and (max-height: 600px) {
+    .menu { width: 95%; height: 90%; max-height: 480px; }
+    .header { font-size: 1rem; padding: 0.6em 0.8em; }
+    .player-name, .player-ping, .player-exp { font-size: 0.9rem; }
+}
+
+/* 1024x768 */
+@media screen and (max-width: 1024px), screen and (max-height: 768px) {
+    .menu { width: 90%; height: 85%; max-height: 500px; }
+}
+
+/* 1280x720 */
+@media screen and (max-width: 1280px), screen and (max-height: 720px) {
+    .menu { width: 85%; height: 80%; }
+}
+
+/* 1920x1080 */
+@media screen and (min-width: 1601px) {
+    .menu { width: 50%; height: 60%; }
+}

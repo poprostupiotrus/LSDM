@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z11mZoj1TI0=",
+  "dgSpecHash": "QwpW0euAr9Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Presentation\\LSDM.Presentation.csproj",
+  "projectFilePath": "Z:\\LSDM\\LSDM.Backend\\LSDM.Presentation\\LSDM.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\komputerrozy\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\komputerrozy\\.nuget\\packages\\mediatr\\13.1.0\\mediatr.13.1.0.nupkg.sha512",

@@ -94,12 +94,18 @@ namespace LSDM.Infrastracture.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("text");
 
+                    b.Property<int>("Deaths")
+                        .HasColumnType("integer");
+
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("character varying(256)");
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("boolean");
+
+                    b.Property<int>("Kills")
+                        .HasColumnType("integer");
 
                     b.Property<string>("LastHwid")
                         .IsRequired()

@@ -19,7 +19,9 @@ namespace LSDM.Application.Mappers
                 ServerRole = user.ServerRole.Name,
                 LastSocialClubId = user.LastSocialClubId,
                 LastHwid = user.LastHwid,
-                LastIpAddress = user.LastIpAddress
+                LastIpAddress = user.LastIpAddress,
+                Kills = user.Kills,
+                Deaths = user.Deaths
             };
         }
     }

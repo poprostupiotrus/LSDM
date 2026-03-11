@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista Graczy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="header">
+            <span>Lista graczy</span>
+            <button class="close" onclick="closeMenu()">✕</button>
+        </div>
+
+        <div class="player-list" id="playerList">
+            <div class="player">
+                <span class="player-name">Gracz1</span>
+                <span class="player-ping">50ms</span>
+                <span class="player-exp">1200</span>
+            </div>
+            <div class="player">
+                <span class="player-name">Gracz2</span>
+                <span class="player-ping">70ms</span>
+                <span class="player-exp">800</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function closeMenu() {
+            document.querySelector('.menu').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

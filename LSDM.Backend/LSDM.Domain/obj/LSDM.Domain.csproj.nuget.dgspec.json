@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\LSDM.Domain.csproj": {}
+    "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\LSDM.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\LSDM.Domain.csproj": {
+    "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\LSDM.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\LSDM.Domain.csproj",
+        "projectUniqueName": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\LSDM.Domain.csproj",
         "projectName": "LSDM.Domain",
-        "projectPath": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\LSDM.Domain.csproj",
+        "projectPath": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\LSDM.Domain.csproj",
         "packagesPath": "C:\\Users\\komputerrozy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\obj\\",
+        "outputPath": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

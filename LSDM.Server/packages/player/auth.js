@@ -42,6 +42,8 @@ mp.events.addCommand("login", async (player, fullText, name, password) => {
         player.runtime.uid = data.id;
         player.runtime.role = data.role;
         player.runtime.logged = true;
+        player.runtime.kills = data.kills;
+        player.runtime.deaths = data.deaths;
         player.outputChatBox("Zalogowano!");
 
     } catch (error) {

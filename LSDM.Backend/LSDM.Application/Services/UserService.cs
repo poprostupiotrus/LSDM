@@ -60,7 +60,9 @@ namespace LSDM.Application.Services
             {
                 Id = user.Id,
                 Role = serverRole.Name,
-                Token = _tokenService.GenerateToken(user)
+                Token = _tokenService.GenerateToken(user),
+                Kills = user.Kills,
+                Deaths = user.Deaths
             };
         }
 
@@ -86,7 +88,9 @@ namespace LSDM.Application.Services
             {
                 Id = user.Id,
                 Role = playerRole.Name,
-                Token = _tokenService.GenerateToken(user)
+                Token = _tokenService.GenerateToken(user),
+                Kills = user.Kills,
+                Deaths = user.Deaths
             };
         }
     }

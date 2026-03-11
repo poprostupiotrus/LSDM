@@ -1,190 +1,197 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\",
+  "WorkspaceRootPath": "Z:\\LSDM\\LSDM.Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\user\\gameloginuserresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\user\\gameloginuserresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\user\\gameregisteruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\user\\gameregisteruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CA5F78F-D067-67B4-CC37-300812CA9741}|LSDM.Presentation\\LSDM.Presentation.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CA5F78F-D067-67B4-CC37-300812CA9741}|LSDM.Presentation\\LSDM.Presentation.csproj|solutionrelative:lsdm.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CA5F78F-D067-67B4-CC37-300812CA9741}|LSDM.Presentation\\LSDM.Presentation.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CA5F78F-D067-67B4-CC37-300812CA9741}|LSDM.Presentation\\LSDM.Presentation.csproj|solutionrelative:lsdm.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.domain\\interfaces\\ibanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\interfaces\\ibanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.domain\\interfaces\\iserverrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\interfaces\\iserverrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\services\\banservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\services\\banservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.infrastracture\\infrastractureservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\infrastractureservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.infrastracture\\repositories\\banrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\repositories\\banrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.infrastracture\\repositories\\serverrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\repositories\\serverrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.infrastracture\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\user\\gameregisteruserresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\user\\gameregisteruserresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\user\\gameloginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\user\\gameloginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CA5F78F-D067-67B4-CC37-300812CA9741}|LSDM.Presentation\\LSDM.Presentation.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CA5F78F-D067-67B4-CC37-300812CA9741}|LSDM.Presentation\\LSDM.Presentation.csproj|solutionrelative:lsdm.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\ban\\banuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\ban\\banuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.domain\\entities\\serverrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\entities\\serverrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.domain\\entities\\lsdmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\entities\\lsdmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.domain\\entities\\banidentifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\entities\\banidentifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.domain\\entities\\ban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\entities\\ban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.domain\\enums\\banidentifiertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\enums\\banidentifiertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\mappers\\banmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\mappers\\banmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\interfaces\\ibanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\interfaces\\ibanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\exceptions\\userbannedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\exceptions\\userbannedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\exceptions\\accountblockedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\exceptions\\accountblockedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\ban\\bandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\ban\\bandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.infrastracture\\migrations\\20260303214854_addedbansandbanidentifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\migrations\\20260303214854_addedbansandbanidentifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.infrastracture\\migrations\\20260301161650_modifyusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\migrations\\20260301161650_modifyusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.infrastracture\\migrations\\20260301151326_addedusersandserverroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\migrations\\20260301151326_addedusersandserverroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.infrastracture\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.infrastracture\\persistence\\seeders\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\persistence\\seeders\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.infrastracture\\persistence\\seeders\\serverroleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\persistence\\seeders\\serverroleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\authorization\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\authorization\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.infrastracture\\persistence\\lsdmdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\persistence\\lsdmdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.infrastracture\\lsdm.infrastracture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\lsdm.infrastracture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\authorization\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\authorization\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\authorization\\rolepermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\authorization\\rolepermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\authorization\\rolepermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.application\\authorization\\rolehierarchy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\authorization\\rolehierarchy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\authorization\\rolehierarchy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|c:\\users\\komputerrozy\\desktop\\lsdm\\lsdm.backend\\lsdm.domain\\lsdm.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\authorization\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\authorization\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA5F78F-D067-67B4-CC37-300812CA9741}|LSDM.Presentation\\LSDM.Presentation.csproj|z:\\lsdm\\lsdm.backend\\lsdm.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA5F78F-D067-67B4-CC37-300812CA9741}|LSDM.Presentation\\LSDM.Presentation.csproj|solutionrelative:lsdm.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA5F78F-D067-67B4-CC37-300812CA9741}|LSDM.Presentation\\LSDM.Presentation.csproj|z:\\lsdm\\lsdm.backend\\lsdm.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA5F78F-D067-67B4-CC37-300812CA9741}|LSDM.Presentation\\LSDM.Presentation.csproj|solutionrelative:lsdm.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA5F78F-D067-67B4-CC37-300812CA9741}|LSDM.Presentation\\LSDM.Presentation.csproj|z:\\lsdm\\lsdm.backend\\lsdm.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA5F78F-D067-67B4-CC37-300812CA9741}|LSDM.Presentation\\LSDM.Presentation.csproj|solutionrelative:lsdm.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|z:\\lsdm\\lsdm.backend\\lsdm.infrastracture\\migrations\\20260307131856_addedkillsanddeaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\migrations\\20260307131856_addedkillsanddeaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\mappers\\banmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\mappers\\banmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\services\\banservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\services\\banservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|z:\\lsdm\\lsdm.backend\\lsdm.domain\\entities\\lsdmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\entities\\lsdmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\user\\gameregisteruserresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\user\\gameregisteruserresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\user\\gameloginuserresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\user\\gameloginuserresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\stats\\statsupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\stats\\statsupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\ban\\bandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\ban\\bandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\ban\\banuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\ban\\banuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|z:\\lsdm\\lsdm.backend\\lsdm.infrastracture\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|z:\\lsdm\\lsdm.backend\\lsdm.infrastracture\\repositories\\banrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\repositories\\banrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\user\\gameregisteruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\user\\gameregisteruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|z:\\lsdm\\lsdm.backend\\lsdm.domain\\interfaces\\ibanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\interfaces\\ibanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|z:\\lsdm\\lsdm.backend\\lsdm.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|z:\\lsdm\\lsdm.backend\\lsdm.domain\\interfaces\\iserverrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\interfaces\\iserverrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|z:\\lsdm\\lsdm.backend\\lsdm.infrastracture\\infrastractureservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\infrastractureservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|z:\\lsdm\\lsdm.backend\\lsdm.infrastracture\\repositories\\serverrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\repositories\\serverrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\dtos\\user\\gameloginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\dtos\\user\\gameloginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|z:\\lsdm\\lsdm.backend\\lsdm.domain\\entities\\serverrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\entities\\serverrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|z:\\lsdm\\lsdm.backend\\lsdm.domain\\entities\\banidentifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\entities\\banidentifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|z:\\lsdm\\lsdm.backend\\lsdm.domain\\entities\\ban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\entities\\ban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|z:\\lsdm\\lsdm.backend\\lsdm.domain\\enums\\banidentifiertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\enums\\banidentifiertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\interfaces\\ibanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\interfaces\\ibanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\exceptions\\userbannedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\exceptions\\userbannedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\exceptions\\accountblockedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\exceptions\\accountblockedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|z:\\lsdm\\lsdm.backend\\lsdm.infrastracture\\migrations\\20260303214854_addedbansandbanidentifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\migrations\\20260303214854_addedbansandbanidentifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|z:\\lsdm\\lsdm.backend\\lsdm.infrastracture\\migrations\\20260301161650_modifyusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\migrations\\20260301161650_modifyusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|z:\\lsdm\\lsdm.backend\\lsdm.infrastracture\\migrations\\20260301151326_addedusersandserverroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\migrations\\20260301151326_addedusersandserverroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|z:\\lsdm\\lsdm.backend\\lsdm.infrastracture\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|z:\\lsdm\\lsdm.backend\\lsdm.infrastracture\\persistence\\seeders\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\persistence\\seeders\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|z:\\lsdm\\lsdm.backend\\lsdm.infrastracture\\persistence\\seeders\\serverroleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\persistence\\seeders\\serverroleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|z:\\lsdm\\lsdm.backend\\lsdm.infrastracture\\persistence\\lsdmdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\persistence\\lsdmdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|z:\\lsdm\\lsdm.backend\\lsdm.infrastracture\\lsdm.infrastracture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{48F12944-4E4E-4E1A-8DD1-88B969054482}|LSDM.Infrastracture\\LSDM.Infrastracture.csproj|solutionrelative:lsdm.infrastracture\\lsdm.infrastracture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|z:\\lsdm\\lsdm.backend\\lsdm.application\\authorization\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C5BD9D-C706-4D72-BCD1-91362038C84A}|LSDM.Application\\LSDM.Application.csproj|solutionrelative:lsdm.application\\authorization\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|z:\\lsdm\\lsdm.backend\\lsdm.domain\\lsdm.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6BAD52DA-DBFF-4850-B404-7337EE04B7A9}|LSDM.Domain\\LSDM.Domain.csproj|solutionrelative:lsdm.domain\\lsdm.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Backend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LSDM.Backend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Backend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -194,7 +201,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -202,219 +209,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IServerRoleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Interfaces\\IServerRoleRepository.cs",
-              "RelativeDocumentMoniker": "LSDM.Domain\\Interfaces\\IServerRoleRepository.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Interfaces\\IServerRoleRepository.cs",
-              "RelativeToolTip": "LSDM.Domain\\Interfaces\\IServerRoleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T13:51:00.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IBanRepository.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Interfaces\\IBanRepository.cs",
-              "RelativeDocumentMoniker": "LSDM.Domain\\Interfaces\\IBanRepository.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Interfaces\\IBanRepository.cs",
-              "RelativeToolTip": "LSDM.Domain\\Interfaces\\IBanRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T22:02:54.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "LSDM.Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "LSDM.Domain\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAABwAAAAAAAAAA==",
+              "Title": "20260307131856_AddedKillsAndDeaths.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Migrations\\20260307131856_AddedKillsAndDeaths.cs",
+              "RelativeDocumentMoniker": "LSDM.Infrastracture\\Migrations\\20260307131856_AddedKillsAndDeaths.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Migrations\\20260307131856_AddedKillsAndDeaths.cs",
+              "RelativeToolTip": "LSDM.Infrastracture\\Migrations\\20260307131856_AddedKillsAndDeaths.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T14:14:30.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "LSDM.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "LSDM.Application\\Services\\UserService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwE8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T17:01:24.475Z",
+              "WhenOpened": "2026-03-07T13:18:56.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Presentation\\Controllers\\UserController.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Presentation\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "LSDM.Presentation\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Presentation\\Controllers\\UserController.cs",
               "RelativeToolTip": "LSDM.Presentation\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowB8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T23:01:41.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameLoginUserResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameLoginUserResponseDto.cs",
-              "RelativeDocumentMoniker": "LSDM.Application\\DTOs\\User\\GameLoginUserResponseDto.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameLoginUserResponseDto.cs",
-              "RelativeToolTip": "LSDM.Application\\DTOs\\User\\GameLoginUserResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T00:13:38.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "LSDM.Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "LSDM.Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T17:00:10.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BanService.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Services\\BanService.cs",
-              "RelativeDocumentMoniker": "LSDM.Application\\Services\\BanService.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Services\\BanService.cs",
-              "RelativeToolTip": "LSDM.Application\\Services\\BanService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwCUAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T22:35:34.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Presentation\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Presentation\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "LSDM.Presentation\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Presentation\\Controllers\\AuthController.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Presentation\\Controllers\\AuthController.cs",
               "RelativeToolTip": "LSDM.Presentation\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowBYAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T17:37:03.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameRegisterUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameRegisterUserDto.cs",
-              "RelativeDocumentMoniker": "LSDM.Application\\DTOs\\User\\GameRegisterUserDto.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameRegisterUserDto.cs",
-              "RelativeToolTip": "LSDM.Application\\DTOs\\User\\GameRegisterUserDto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBgAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T22:27:14.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InfrastractureServicesRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\InfrastractureServicesRegistration.cs",
-              "RelativeDocumentMoniker": "LSDM.Infrastracture\\InfrastractureServicesRegistration.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\InfrastractureServicesRegistration.cs",
-              "RelativeToolTip": "LSDM.Infrastracture\\InfrastractureServicesRegistration.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T10:05:24.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BanRepository.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Repositories\\BanRepository.cs",
-              "RelativeDocumentMoniker": "LSDM.Infrastracture\\Repositories\\BanRepository.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Repositories\\BanRepository.cs",
-              "RelativeToolTip": "LSDM.Infrastracture\\Repositories\\BanRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwEIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T22:05:41.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ServerRoleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Repositories\\ServerRoleRepository.cs",
-              "RelativeDocumentMoniker": "LSDM.Infrastracture\\Repositories\\ServerRoleRepository.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Repositories\\ServerRoleRepository.cs",
-              "RelativeToolTip": "LSDM.Infrastracture\\Repositories\\ServerRoleRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T13:52:54.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "LSDM.Infrastracture\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "LSDM.Infrastracture\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAArwCQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T14:15:09.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GameRegisterUserResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameRegisterUserResponseDto.cs",
-              "RelativeDocumentMoniker": "LSDM.Application\\DTOs\\User\\GameRegisterUserResponseDto.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameRegisterUserResponseDto.cs",
-              "RelativeToolTip": "LSDM.Application\\DTOs\\User\\GameRegisterUserResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T00:18:58.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GameLoginUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameLoginUserDto.cs",
-              "RelativeDocumentMoniker": "LSDM.Application\\DTOs\\User\\GameLoginUserDto.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameLoginUserDto.cs",
-              "RelativeToolTip": "LSDM.Application\\DTOs\\User\\GameLoginUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T22:26:06.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Presentation\\Program.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Presentation\\Program.cs",
               "RelativeDocumentMoniker": "LSDM.Presentation\\Program.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Presentation\\Program.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Presentation\\Program.cs",
               "RelativeToolTip": "LSDM.Presentation\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -423,24 +261,170 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\UserDto.cs",
-              "RelativeDocumentMoniker": "LSDM.Application\\DTOs\\User\\UserDto.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\UserDto.cs",
-              "RelativeToolTip": "LSDM.Application\\DTOs\\User\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "BanService.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Services\\BanService.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\Services\\BanService.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Services\\BanService.cs",
+              "RelativeToolTip": "LSDM.Application\\Services\\BanService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCUAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T07:06:51.474Z",
+              "WhenOpened": "2026-03-02T22:35:34.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\UserDto.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\DTOs\\User\\UserDto.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\UserDto.cs",
+              "RelativeToolTip": "LSDM.Application\\DTOs\\User\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T07:06:51.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RolePermissions.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\RolePermissions.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\Authorization\\RolePermissions.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\RolePermissions.cs",
+              "RelativeToolTip": "LSDM.Application\\Authorization\\RolePermissions.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwBoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:45:23.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 13,
+              "Title": "GameRegisterUserResponseDto.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameRegisterUserResponseDto.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\DTOs\\User\\GameRegisterUserResponseDto.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameRegisterUserResponseDto.cs",
+              "RelativeToolTip": "LSDM.Application\\DTOs\\User\\GameRegisterUserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T00:18:58.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\Permission.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\Authorization\\Permission.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\Permission.cs",
+              "RelativeToolTip": "LSDM.Application\\Authorization\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:43:13.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoleHierarchy.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\RoleHierarchy.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\Authorization\\RoleHierarchy.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\RoleHierarchy.cs",
+              "RelativeToolTip": "LSDM.Application\\Authorization\\RoleHierarchy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:44:12.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\Services\\UserService.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "LSDM.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwEAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:01:24.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LSDMUser.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\LSDMUser.cs",
+              "RelativeDocumentMoniker": "LSDM.Domain\\Entities\\LSDMUser.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\LSDMUser.cs",
+              "RelativeToolTip": "LSDM.Domain\\Entities\\LSDMUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T13:08:33.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GameLoginUserResponseDto.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameLoginUserResponseDto.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\DTOs\\User\\GameLoginUserResponseDto.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameLoginUserResponseDto.cs",
+              "RelativeToolTip": "LSDM.Application\\DTOs\\User\\GameLoginUserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T00:13:38.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BanMapper.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Mappers\\BanMapper.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\Mappers\\BanMapper.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Mappers\\BanMapper.cs",
+              "RelativeToolTip": "LSDM.Application\\Mappers\\BanMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T19:59:54.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Mappers\\UserMapper.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\Mappers\\UserMapper.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Mappers\\UserMapper.cs",
+              "RelativeToolTip": "LSDM.Application\\Mappers\\UserMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T07:09:41.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StatsUpdateDto.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\Stats\\StatsUpdateDto.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\DTOs\\Stats\\StatsUpdateDto.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\Stats\\StatsUpdateDto.cs",
+              "RelativeToolTip": "LSDM.Application\\DTOs\\Stats\\StatsUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T10:48:58.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BanDto.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\Ban\\BanDto.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\DTOs\\Ban\\BanDto.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\Ban\\BanDto.cs",
+              "RelativeToolTip": "LSDM.Application\\DTOs\\Ban\\BanDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T19:57:12.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "BanUserRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\Ban\\BanUserRequestDto.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\Ban\\BanUserRequestDto.cs",
               "RelativeDocumentMoniker": "LSDM.Application\\DTOs\\Ban\\BanUserRequestDto.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\Ban\\BanUserRequestDto.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\Ban\\BanUserRequestDto.cs",
               "RelativeToolTip": "LSDM.Application\\DTOs\\Ban\\BanUserRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -449,10 +433,130 @@
             {
               "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "BanRepository.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Repositories\\BanRepository.cs",
+              "RelativeDocumentMoniker": "LSDM.Infrastracture\\Repositories\\BanRepository.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Repositories\\BanRepository.cs",
+              "RelativeToolTip": "LSDM.Infrastracture\\Repositories\\BanRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T22:05:41.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "LSDM.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:00:10.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IServerRoleRepository.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Interfaces\\IServerRoleRepository.cs",
+              "RelativeDocumentMoniker": "LSDM.Domain\\Interfaces\\IServerRoleRepository.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Interfaces\\IServerRoleRepository.cs",
+              "RelativeToolTip": "LSDM.Domain\\Interfaces\\IServerRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T13:51:00.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "LSDM.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "LSDM.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T14:14:30.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "LSDM.Infrastracture\\Repositories\\UserRepository.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "LSDM.Infrastracture\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAApwCQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T14:15:09.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IBanRepository.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Interfaces\\IBanRepository.cs",
+              "RelativeDocumentMoniker": "LSDM.Domain\\Interfaces\\IBanRepository.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Interfaces\\IBanRepository.cs",
+              "RelativeToolTip": "LSDM.Domain\\Interfaces\\IBanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T22:02:54.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GameRegisterUserDto.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameRegisterUserDto.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\DTOs\\User\\GameRegisterUserDto.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameRegisterUserDto.cs",
+              "RelativeToolTip": "LSDM.Application\\DTOs\\User\\GameRegisterUserDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T22:27:14.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "InfrastractureServicesRegistration.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\InfrastractureServicesRegistration.cs",
+              "RelativeDocumentMoniker": "LSDM.Infrastracture\\InfrastractureServicesRegistration.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\InfrastractureServicesRegistration.cs",
+              "RelativeToolTip": "LSDM.Infrastracture\\InfrastractureServicesRegistration.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T10:05:24.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ServerRoleRepository.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Repositories\\ServerRoleRepository.cs",
+              "RelativeDocumentMoniker": "LSDM.Infrastracture\\Repositories\\ServerRoleRepository.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Repositories\\ServerRoleRepository.cs",
+              "RelativeToolTip": "LSDM.Infrastracture\\Repositories\\ServerRoleRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T13:52:54.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GameLoginUserDto.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameLoginUserDto.cs",
+              "RelativeDocumentMoniker": "LSDM.Application\\DTOs\\User\\GameLoginUserDto.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\User\\GameLoginUserDto.cs",
+              "RelativeToolTip": "LSDM.Application\\DTOs\\User\\GameLoginUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T22:26:06.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "ServerRole.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\ServerRole.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\ServerRole.cs",
               "RelativeDocumentMoniker": "LSDM.Domain\\Entities\\ServerRole.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\ServerRole.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\ServerRole.cs",
               "RelativeToolTip": "LSDM.Domain\\Entities\\ServerRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -460,23 +564,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LSDMUser.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\LSDMUser.cs",
-              "RelativeDocumentMoniker": "LSDM.Domain\\Entities\\LSDMUser.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\LSDMUser.cs",
-              "RelativeToolTip": "LSDM.Domain\\Entities\\LSDMUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T13:08:33.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "BanIdentifier.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\BanIdentifier.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\BanIdentifier.cs",
               "RelativeDocumentMoniker": "LSDM.Domain\\Entities\\BanIdentifier.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\BanIdentifier.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\BanIdentifier.cs",
               "RelativeToolTip": "LSDM.Domain\\Entities\\BanIdentifier.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -484,11 +576,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "Ban.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\Ban.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\Ban.cs",
               "RelativeDocumentMoniker": "LSDM.Domain\\Entities\\Ban.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\Ban.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Entities\\Ban.cs",
               "RelativeToolTip": "LSDM.Domain\\Entities\\Ban.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -496,11 +588,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "BanIdentifierType.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Enums\\BanIdentifierType.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Enums\\BanIdentifierType.cs",
               "RelativeDocumentMoniker": "LSDM.Domain\\Enums\\BanIdentifierType.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\Enums\\BanIdentifierType.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\Enums\\BanIdentifierType.cs",
               "RelativeToolTip": "LSDM.Domain\\Enums\\BanIdentifierType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -508,35 +600,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UserMapper.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Mappers\\UserMapper.cs",
-              "RelativeDocumentMoniker": "LSDM.Application\\Mappers\\UserMapper.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Mappers\\UserMapper.cs",
-              "RelativeToolTip": "LSDM.Application\\Mappers\\UserMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T07:09:41.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "BanMapper.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Mappers\\BanMapper.cs",
-              "RelativeDocumentMoniker": "LSDM.Application\\Mappers\\BanMapper.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Mappers\\BanMapper.cs",
-              "RelativeToolTip": "LSDM.Application\\Mappers\\BanMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T19:59:54.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Interfaces\\ITokenService.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Interfaces\\ITokenService.cs",
               "RelativeDocumentMoniker": "LSDM.Application\\Interfaces\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Interfaces\\ITokenService.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Interfaces\\ITokenService.cs",
               "RelativeToolTip": "LSDM.Application\\Interfaces\\ITokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -544,11 +612,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "IBanService.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Interfaces\\IBanService.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Interfaces\\IBanService.cs",
               "RelativeDocumentMoniker": "LSDM.Application\\Interfaces\\IBanService.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Interfaces\\IBanService.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Interfaces\\IBanService.cs",
               "RelativeToolTip": "LSDM.Application\\Interfaces\\IBanService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -556,11 +624,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "UserBannedException.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Exceptions\\UserBannedException.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Exceptions\\UserBannedException.cs",
               "RelativeDocumentMoniker": "LSDM.Application\\Exceptions\\UserBannedException.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Exceptions\\UserBannedException.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Exceptions\\UserBannedException.cs",
               "RelativeToolTip": "LSDM.Application\\Exceptions\\UserBannedException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -568,11 +636,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "UserNotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Exceptions\\UserNotFoundException.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Exceptions\\UserNotFoundException.cs",
               "RelativeDocumentMoniker": "LSDM.Application\\Exceptions\\UserNotFoundException.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Exceptions\\UserNotFoundException.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Exceptions\\UserNotFoundException.cs",
               "RelativeToolTip": "LSDM.Application\\Exceptions\\UserNotFoundException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -580,11 +648,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "AccountBlockedException.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Exceptions\\AccountBlockedException.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Exceptions\\AccountBlockedException.cs",
               "RelativeDocumentMoniker": "LSDM.Application\\Exceptions\\AccountBlockedException.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Exceptions\\AccountBlockedException.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Exceptions\\AccountBlockedException.cs",
               "RelativeToolTip": "LSDM.Application\\Exceptions\\AccountBlockedException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -592,23 +660,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "BanDto.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\Ban\\BanDto.cs",
-              "RelativeDocumentMoniker": "LSDM.Application\\DTOs\\Ban\\BanDto.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\DTOs\\Ban\\BanDto.cs",
-              "RelativeToolTip": "LSDM.Application\\DTOs\\Ban\\BanDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T19:57:12.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "20260303214854_AddedBansAndBanIdentifier.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Migrations\\20260303214854_AddedBansAndBanIdentifier.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Migrations\\20260303214854_AddedBansAndBanIdentifier.cs",
               "RelativeDocumentMoniker": "LSDM.Infrastracture\\Migrations\\20260303214854_AddedBansAndBanIdentifier.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Migrations\\20260303214854_AddedBansAndBanIdentifier.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Migrations\\20260303214854_AddedBansAndBanIdentifier.cs",
               "RelativeToolTip": "LSDM.Infrastracture\\Migrations\\20260303214854_AddedBansAndBanIdentifier.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -616,11 +672,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "20260301161650_ModifyUsers.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Migrations\\20260301161650_ModifyUsers.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Migrations\\20260301161650_ModifyUsers.cs",
               "RelativeDocumentMoniker": "LSDM.Infrastracture\\Migrations\\20260301161650_ModifyUsers.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Migrations\\20260301161650_ModifyUsers.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Migrations\\20260301161650_ModifyUsers.cs",
               "RelativeToolTip": "LSDM.Infrastracture\\Migrations\\20260301161650_ModifyUsers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -628,11 +684,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "20260301151326_AddedUsersAndServerRoles.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Migrations\\20260301151326_AddedUsersAndServerRoles.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Migrations\\20260301151326_AddedUsersAndServerRoles.cs",
               "RelativeDocumentMoniker": "LSDM.Infrastracture\\Migrations\\20260301151326_AddedUsersAndServerRoles.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Migrations\\20260301151326_AddedUsersAndServerRoles.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Migrations\\20260301151326_AddedUsersAndServerRoles.cs",
               "RelativeToolTip": "LSDM.Infrastracture\\Migrations\\20260301151326_AddedUsersAndServerRoles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -640,11 +696,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Services\\TokenService.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "LSDM.Infrastracture\\Services\\TokenService.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Services\\TokenService.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Services\\TokenService.cs",
               "RelativeToolTip": "LSDM.Infrastracture\\Services\\TokenService.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -652,11 +708,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "UserSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Persistence\\Seeders\\UserSeeder.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Persistence\\Seeders\\UserSeeder.cs",
               "RelativeDocumentMoniker": "LSDM.Infrastracture\\Persistence\\Seeders\\UserSeeder.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Persistence\\Seeders\\UserSeeder.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Persistence\\Seeders\\UserSeeder.cs",
               "RelativeToolTip": "LSDM.Infrastracture\\Persistence\\Seeders\\UserSeeder.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAxwBcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -664,11 +720,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "ServerRoleSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Persistence\\Seeders\\ServerRoleSeeder.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Persistence\\Seeders\\ServerRoleSeeder.cs",
               "RelativeDocumentMoniker": "LSDM.Infrastracture\\Persistence\\Seeders\\ServerRoleSeeder.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Persistence\\Seeders\\ServerRoleSeeder.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Persistence\\Seeders\\ServerRoleSeeder.cs",
               "RelativeToolTip": "LSDM.Infrastracture\\Persistence\\Seeders\\ServerRoleSeeder.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwBwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -676,23 +732,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Permission.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\Permission.cs",
-              "RelativeDocumentMoniker": "LSDM.Application\\Authorization\\Permission.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\Permission.cs",
-              "RelativeToolTip": "LSDM.Application\\Authorization\\Permission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T13:43:13.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "LSDMDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Persistence\\LSDMDbContext.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Persistence\\LSDMDbContext.cs",
               "RelativeDocumentMoniker": "LSDM.Infrastracture\\Persistence\\LSDMDbContext.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Persistence\\LSDMDbContext.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\Persistence\\LSDMDbContext.cs",
               "RelativeToolTip": "LSDM.Infrastracture\\Persistence\\LSDMDbContext.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -700,11 +744,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "LSDM.Infrastracture.csproj",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\LSDM.Infrastracture.csproj",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\LSDM.Infrastracture.csproj",
               "RelativeDocumentMoniker": "LSDM.Infrastracture\\LSDM.Infrastracture.csproj",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\LSDM.Infrastracture.csproj",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Infrastracture\\LSDM.Infrastracture.csproj",
               "RelativeToolTip": "LSDM.Infrastracture\\LSDM.Infrastracture.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -712,11 +756,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\Roles.cs",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\Roles.cs",
               "RelativeDocumentMoniker": "LSDM.Application\\Authorization\\Roles.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\Roles.cs",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\Roles.cs",
               "RelativeToolTip": "LSDM.Application\\Authorization\\Roles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -724,35 +768,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "RolePermissions.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\RolePermissions.cs",
-              "RelativeDocumentMoniker": "LSDM.Application\\Authorization\\RolePermissions.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\RolePermissions.cs",
-              "RelativeToolTip": "LSDM.Application\\Authorization\\RolePermissions.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwBoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T13:45:23.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "RoleHierarchy.cs",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\RoleHierarchy.cs",
-              "RelativeDocumentMoniker": "LSDM.Application\\Authorization\\RoleHierarchy.cs",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Application\\Authorization\\RoleHierarchy.cs",
-              "RelativeToolTip": "LSDM.Application\\Authorization\\RoleHierarchy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T13:44:12.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "LSDM.Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\LSDM.Domain.csproj",
+              "DocumentMoniker": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\LSDM.Domain.csproj",
               "RelativeDocumentMoniker": "LSDM.Domain\\LSDM.Domain.csproj",
-              "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Domain\\LSDM.Domain.csproj",
+              "ToolTip": "Z:\\LSDM\\LSDM.Backend\\LSDM.Domain\\LSDM.Domain.csproj",
               "RelativeToolTip": "LSDM.Domain\\LSDM.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -760,12 +780,10 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Backend\\Program.cs",
-              "RelativeDocumentMoniker": "LSDM.Backend\\Program.cs",
               "ToolTip": "C:\\Users\\komputerrozy\\Desktop\\LSDM\\LSDM.Backend\\LSDM.Backend\\Program.cs",
-              "RelativeToolTip": "LSDM.Backend\\Program.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T07:34:17.38Z"
             }

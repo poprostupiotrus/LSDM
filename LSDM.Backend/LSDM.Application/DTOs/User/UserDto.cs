@@ -15,6 +15,8 @@ namespace LSDM.Application.DTOs.User
         public string LastSocialClubId { get; set; } = null!;
         public string LastHwid { get; set; } = null!;
         public string LastIpAddress { get; set; } = null!;
+        public int Kills { get; set; }
+        public int Deaths { get; set; }
 
     }
 }

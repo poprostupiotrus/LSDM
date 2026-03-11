@@ -33,5 +33,7 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "LSDM.Presentation.dll"]
 
 USER root
+RUN chown -R app:app /app
+RUN chmod -R 755 /app
 RUN apt-get update && apt-get install -y curl
 USER app

@@ -1,4 +1,5 @@
 ﻿using LSDM.Application.DTOs.Ban;
+using LSDM.Application.DTOs.Stats;
 using LSDM.Application.Exceptions;
 using LSDM.Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
