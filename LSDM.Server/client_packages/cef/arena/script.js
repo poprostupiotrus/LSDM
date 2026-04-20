@@ -1,6 +1,6 @@
 const arenaListElement = document.querySelector('#arenaList');
 
-function openArenaMenu(arenas) {
+function loadArenas(arenas) {
     let html = '';
     arenas.forEach(arena => {
         const isFull = arena.players >= arena.maxPlayers;
@@ -27,26 +27,22 @@ function openArenaMenu(arenas) {
 function joinArena(id) {
     if (typeof mp !== "undefined") {
         mp.trigger("client:arenaJoin", id);
-    } else {
-        console.log(`[DEBUG] Join arena ${id}`);
     }
 }
 
 function closeMenu() {
     if (typeof mp !== "undefined") {
         mp.trigger("client:arenaMenuClose");
-    } else {
-        console.log('[DEBUG] Close menu');
     }
 }
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'k') {
-        closeMenu();
-    }
-});
-
 function escapeHtml(text) {
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
 }
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'k') {
+        closeMenu();
+    }
+});

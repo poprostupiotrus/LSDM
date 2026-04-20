@@ -11,6 +11,7 @@ namespace LSDM.Application.DTOs.User
         public string Token { get; set; } = null!;
         public string Id { get; set; } = null!;
         public string Role { get; set; } = null!;
+        public bool HasOutfit { get; set; }
         public int Kills { get; set; }
         public int Deaths { get; set; }
     }

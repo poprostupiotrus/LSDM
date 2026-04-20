@@ -1,0 +1,8 @@
+const WORLD_OFFSETS = {
+    LOBBY: 0,
+    AUTH: 1000,
+    ARENA: 2000,
+    DUEL: 3000,
+    CHARACTER_CREATOR: 4000,
+}
+module.exports = WORLD_OFFSETS;

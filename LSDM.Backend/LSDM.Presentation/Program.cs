@@ -35,6 +35,8 @@ builder.Services.AddScoped<IBanRepository, BanRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IBanService, BanService>();
+builder.Services.AddScoped<IOutfitService, OutfitService>();
+builder.Services.AddScoped<IOutfitRepository, OutfitRepository>();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
@@ -48,7 +50,7 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 
         return new BadRequestObjectResult(new
         {
-            Message = "Wprowadzono nieprawid³owe dane.",
+            Message = "Wprowadzono nieprawidlowe dane.",
             Errors = errors
         });
     };

@@ -1,0 +1,22 @@
+export const FACE_FEATURES = {
+    'nose-width': 0,
+    'nose-height': 1,
+    'nose-length': 2,
+    'nose-bridge': 3,
+    'nose-tip': 4,
+    'nose-bridge-shift': 5,
+    'brow-height': 6,
+    'brow-width': 7,
+    'cheekbone-height': 8,
+    'cheekbone-width': 9,
+    'cheeks-width': 10,
+    'eyes': 11,
+    'lips': 12,
+    'jaw-width': 13,
+    'jaw-height': 14,
+    'chin-length': 15,
+    'chin-position': 16,
+    'chin-width': 17,
+    'chin-shape': 18,
+    'neck-width': 19
+};

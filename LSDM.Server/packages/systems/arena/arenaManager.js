@@ -26,7 +26,8 @@ class ArenaManager {
 
         if(player.runtime.location.type !== LOCATION_TYPES.LOBBY)
         {
-            player.outputChatBox(`!{#ff0000} Musisz być w lobby, aby móc wejść na arene.`);
+            const message = "Musisz być w lobby, aby móc wejść na arene."
+            player.call("client:showError", [message]);
             return false;
         }
         

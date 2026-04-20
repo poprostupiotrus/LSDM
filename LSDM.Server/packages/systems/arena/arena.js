@@ -8,18 +8,7 @@ class Arena {
         this.weaponLoadout = config.weaponLoadout;
         this.position = config.position;
         this.arenaSize = config.arenaSize;
-        this.colShape = mp.colshapes.newRectangle(this.position.x, this.position.y, this.arenaSize.width, this.arenaSize.height, this.virtualWorld);
-        console.log(this.position.x);
-        console.log(this.position.y);  
-        console.log(this.position.z); 
-        console.log(this.arenaSize.width);
-        console.log("=============");    
-        mp.markers.new(1, new mp.Vector3(this.position.x, this.position.y, this.position.z), this.arenaSize.width, {
-            rotation: new mp.Vector3(0, 0, 0),
-            color: [255, 0, 0, 100],
-            visible: true,
-            dimension: this.virtualWorld
-        });
+        this.colShape = mp.colshapes.newRectangle(this.position.x, this.position.y, this.arenaSize.width, this.arenaSize.height, this.virtualWorld);  
         this.players = [];
         this.maxPlayers = config.maxPlayers;
         this.deathTimeouts = new Map();

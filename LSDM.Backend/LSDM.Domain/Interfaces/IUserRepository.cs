@@ -18,5 +18,6 @@ namespace LSDM.Domain.Interfaces
         Task UpdateLastLoginIdentifiersAsync(LSDMUser user, string socialClubId, string hwid, string ipAddress);
         Task AssignServerRole(LSDMUser user, ServerRole role);
         Task<bool> ExistsByUserNameAsync(string username);
+        Task<bool> ExistsAsync(string userId);
     }
 }

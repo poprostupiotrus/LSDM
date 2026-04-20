@@ -5,6 +5,7 @@ using LSDM.Application.Interfaces;
 using LSDM.Application.Mappers;
 using LSDM.Domain.Entities;
 using LSDM.Domain.Interfaces;
+using System.Runtime.Intrinsics.X86;
 
 namespace LSDM.Application.Services
 {
@@ -14,13 +15,15 @@ namespace LSDM.Application.Services
         private readonly ITokenService _tokenService;
         private readonly IServerRoleRepository _serverRoleRepository;
         private readonly IBanRepository _banRepository;
+        private readonly IOutfitRepository _outfitRepository;
 
-        public UserService(IUserRepository userRepository, ITokenService tokenService, IServerRoleRepository serverRoleRepository, IBanRepository banRepository)
+        public UserService(IUserRepository userRepository, ITokenService tokenService, IServerRoleRepository serverRoleRepository, IBanRepository banRepository, IOutfitRepository outfitRepository)
         {
             _userRepository = userRepository;
             _tokenService = tokenService;
             _serverRoleRepository = serverRoleRepository;
             _banRepository = banRepository;
+            _outfitRepository = outfitRepository;
         }
 
         public async Task<List<UserDto>> GetAllAsync(int pageNumber, int pageSize, string? username = null, bool sortByDescending = false)
@@ -62,7 +65,8 @@ namespace LSDM.Application.Services
                 Role = serverRole.Name,
                 Token = _tokenService.GenerateToken(user),
                 Kills = user.Kills,
-                Deaths = user.Deaths
+                Deaths = user.Deaths,
+                HasOutfit = await _outfitRepository.UserHasOutfit(user.Id)
             };
         }
 
@@ -90,7 +94,7 @@ namespace LSDM.Application.Services
                 Role = playerRole.Name,
                 Token = _tokenService.GenerateToken(user),
                 Kills = user.Kills,
-                Deaths = user.Deaths
+                Deaths = user.Deaths,
             };
         }
     }

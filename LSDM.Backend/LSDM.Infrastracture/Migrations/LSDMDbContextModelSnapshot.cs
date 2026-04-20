@@ -82,6 +82,72 @@ namespace LSDM.Infrastracture.Migrations
                     b.ToTable("BanIdentifiers");
                 });
 
+            modelBuilder.Entity("LSDM.Domain.Entities.FaceFeature", b =>
+                {
+                    b.Property<int>("OutfitId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Index")
+                        .HasColumnType("integer");
+
+                    b.Property<float>("Scale")
+                        .HasColumnType("real");
+
+                    b.HasKey("OutfitId", "Index");
+
+                    b.ToTable("FaceFeatures");
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.HeadBlend", b =>
+                {
+                    b.Property<int>("OutfitId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("ShapeFirstId")
+                        .HasColumnType("integer");
+
+                    b.Property<float>("ShapeMix")
+                        .HasColumnType("real");
+
+                    b.Property<int>("ShapeSecondId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("SkinFirstId")
+                        .HasColumnType("integer");
+
+                    b.Property<float>("SkinMix")
+                        .HasColumnType("real");
+
+                    b.Property<int>("SkinSecondId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("OutfitId");
+
+                    b.ToTable("HeadBlends");
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.HeadOverlay", b =>
+                {
+                    b.Property<int>("OutfitId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("HeadOverlayId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("FirstColor")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Index")
+                        .HasColumnType("integer");
+
+                    b.Property<float>("Opacity")
+                        .HasColumnType("real");
+
+                    b.HasKey("OutfitId", "HeadOverlayId");
+
+                    b.ToTable("HeadOverlays");
+                });
+
             modelBuilder.Entity("LSDM.Domain.Entities.LSDMUser", b =>
                 {
                     b.Property<string>("Id")
@@ -167,6 +233,73 @@ namespace LSDM.Infrastracture.Migrations
                     b.HasIndex("ServerRoleId");
 
                     b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.Outfit", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("EyeColor")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("HairColor")
+                        .HasColumnType("integer");
+
+                    b.Property<long>("Model")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Outfits");
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.OutfitComponent", b =>
+                {
+                    b.Property<int>("OutfitId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("ComponentId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Drawable")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Texture")
+                        .HasColumnType("integer");
+
+                    b.HasKey("OutfitId", "ComponentId");
+
+                    b.ToTable("OutfitComponents");
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.OutfitProp", b =>
+                {
+                    b.Property<int>("OutfitId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("PropId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Drawable")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Texture")
+                        .HasColumnType("integer");
+
+                    b.HasKey("OutfitId", "PropId");
+
+                    b.ToTable("OutfitProps");
                 });
 
             modelBuilder.Entity("LSDM.Domain.Entities.ServerRole", b =>
@@ -348,6 +481,39 @@ namespace LSDM.Infrastracture.Migrations
                     b.Navigation("Ban");
                 });
 
+            modelBuilder.Entity("LSDM.Domain.Entities.FaceFeature", b =>
+                {
+                    b.HasOne("LSDM.Domain.Entities.Outfit", "Outfit")
+                        .WithMany("FaceFeatures")
+                        .HasForeignKey("OutfitId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Outfit");
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.HeadBlend", b =>
+                {
+                    b.HasOne("LSDM.Domain.Entities.Outfit", "Outfit")
+                        .WithOne("HeadBlend")
+                        .HasForeignKey("LSDM.Domain.Entities.HeadBlend", "OutfitId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Outfit");
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.HeadOverlay", b =>
+                {
+                    b.HasOne("LSDM.Domain.Entities.Outfit", "Outfit")
+                        .WithMany("HeadOverlays")
+                        .HasForeignKey("OutfitId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Outfit");
+                });
+
             modelBuilder.Entity("LSDM.Domain.Entities.LSDMUser", b =>
                 {
                     b.HasOne("LSDM.Domain.Entities.ServerRole", "ServerRole")
@@ -357,6 +523,39 @@ namespace LSDM.Infrastracture.Migrations
                         .IsRequired();
 
                     b.Navigation("ServerRole");
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.Outfit", b =>
+                {
+                    b.HasOne("LSDM.Domain.Entities.LSDMUser", "User")
+                        .WithOne("Outfit")
+                        .HasForeignKey("LSDM.Domain.Entities.Outfit", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.OutfitComponent", b =>
+                {
+                    b.HasOne("LSDM.Domain.Entities.Outfit", "Outfit")
+                        .WithMany("Components")
+                        .HasForeignKey("OutfitId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Outfit");
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.OutfitProp", b =>
+                {
+                    b.HasOne("LSDM.Domain.Entities.Outfit", "Outfit")
+                        .WithMany("Props")
+                        .HasForeignKey("OutfitId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Outfit");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -420,6 +619,23 @@ namespace LSDM.Infrastracture.Migrations
                     b.Navigation("AssignedBans");
 
                     b.Navigation("Bans");
+
+                    b.Navigation("Outfit")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("LSDM.Domain.Entities.Outfit", b =>
+                {
+                    b.Navigation("Components");
+
+                    b.Navigation("FaceFeatures");
+
+                    b.Navigation("HeadBlend")
+                        .IsRequired();
+
+                    b.Navigation("HeadOverlays");
+
+                    b.Navigation("Props");
                 });
 
             modelBuilder.Entity("LSDM.Domain.Entities.ServerRole", b =>

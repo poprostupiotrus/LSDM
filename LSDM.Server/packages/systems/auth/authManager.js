@@ -12,6 +12,7 @@ class AuthManager {
             player.name = username;
             player.runtime.kills = data.kills;
             player.runtime.deaths = data.deaths;
+            player.runtime.hasOutfit = false;
             return { success: true, message: "Udało ci się pomyślnie zarejestrować."}
     
         } catch (error) {
@@ -31,6 +32,7 @@ class AuthManager {
             player.name = username;
             player.runtime.kills = data.kills;
             player.runtime.deaths = data.deaths;
+            player.runtime.hasOutfit = data.hasOutfit;
             return { success: true, message: "Udało ci się pomyślnie zalogować."}
     
         } catch (error) {

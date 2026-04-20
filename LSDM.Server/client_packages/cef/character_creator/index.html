@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kreator Postaci</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="creator-container">
+        <!-- Nawigacja -->
+        <nav class="creator-nav">
+            <button class="nav-tab active" data-tab="ogolne" title="Ogólne">
+                <svg class="tab-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14c-2.33 0-4.31-1.46-5.11-3.5h10.22c-.8 2.04-2.78 3.5-5.11 3.5z"/>
+                </svg>
+            </button>
+            <button class="nav-tab" data-tab="twarz" title="Twarz">
+                <svg class="tab-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14c-2.33 0-4.31-1.46-5.11-3.5h10.22c-.8 2.04-2.78 3.5-5.11 3.5z"/>
+                </svg>
+            </button>
+            <button class="nav-tab" data-tab="wlosy" title="Włosy">
+                <svg class="tab-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 4c-4.42 0-8 2.5-8 7v2h2v-2c0-3.31 2.69-6 6-6s6 2.69 6 6v2h2v-2c0-4.5-3.58-7-8-7zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                </svg>
+            </button>
+            <button class="nav-tab" data-tab="cialo" title="Ciało">
+                <svg class="tab-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C8.5 2 6 4.5 6 8c0 2.5 1.5 4.5 3.5 5.5V18h5v-4.5C16.5 12.5 18 10.5 18 8c0-3.5-2.5-6-6-6zm0 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/>
+                </svg>
+            </button>
+            <button class="nav-tab" data-tab="dodatki" title="Dodatki">
+                <svg class="tab-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                </svg>
+            </button>
+            <button class="nav-tab" data-tab="ubrania" title="Ubrania">
+                <svg class="tab-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20 8l-5-5-3 3-2-2H5v16h14V8zm-2 2v8H7v-8h3l2 2 2-2h3z"/>
+                </svg>
+            </button>
+        </nav>
+
+        <!-- Zawartość -->
+        <div class="creator-content">
+            <!-- Zakładka OGÓLNE -->
+            <div class="tab-content active" id="tab-ogolne">
+                <div class="content-header">
+                    <h2>OGÓLNE</h2>
+                </div>
+                
+                <div class="form-section">
+                    <!-- PŁEĆ -->
+                    <div class="form-group">
+                        <label>PŁEĆ</label>
+                        <div class="gender-selector">
+                            <button class="gender-btn active" data-gender="male" data-model="0x705E61F2">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
+                                </svg>
+                                <span>Mężczyzna</span>
+                            </button>
+                            <button class="gender-btn" data-gender="female" data-model="0x9C9EFFD8">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
+                                </svg>
+                                <span>Kobieta</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Head Blend -->
+                    <div class="form-group">
+                        <label>KSZTAŁT GŁOWY (RODZIC 1)</label>
+                        <div class="parent-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="shape-first">◀</button>
+                            <div id="shape-first-display" class="parent-display">0 - Alex</div>
+                            <button class="arrow-btn" data-action="increment" data-target="shape-first">▶</button>
+                            <input type="hidden" id="shape-first" value="0" min="0" max="45">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>KSZTAŁT GŁOWY (RODZIC 2)</label>
+                        <div class="parent-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="shape-second">◀</button>
+                            <div id="shape-second-display" class="parent-display">0 - Alex</div>
+                            <button class="arrow-btn" data-action="increment" data-target="shape-second">▶</button>
+                            <input type="hidden" id="shape-second" value="0" min="0" max="45">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>SKÓRA (RODZIC 1)</label>
+                        <div class="parent-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="skin-first">◀</button>
+                            <div id="skin-first-display" class="parent-display">0 - Alex</div>
+                            <button class="arrow-btn" data-action="increment" data-target="skin-first">▶</button>
+                            <input type="hidden" id="skin-first" value="0" min="0" max="45">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>SKÓRA (RODZIC 2)</label>
+                        <div class="parent-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="skin-second">◀</button>
+                            <div id="skin-second-display" class="parent-display">0 - Alex</div>
+                            <button class="arrow-btn" data-action="increment" data-target="skin-second">▶</button>
+                            <input type="hidden" id="skin-second" value="0" min="0" max="45">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="shape-mix">PODOBIEŃSTWO KSZTAŁTU</label>
+                        <div class="slider-control">
+                            <input type="range" id="shape-mix" min="0" max="1" step="0.01" value="0.5">
+                            <span class="slider-value">0.50</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="skin-mix">PODOBIEŃSTWO SKÓRY</label>
+                        <div class="slider-control">
+                            <input type="range" id="skin-mix" min="0" max="1" step="0.01" value="0.5">
+                            <span class="slider-value">0.50</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>KOLOR OCZU</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="eye-color">◀</button>
+                            <input type="number" id="eye-color" value="0" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="eye-color">▶</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Zakładka TWARZ -->
+            <div class="tab-content" id="tab-twarz">
+                <div class="content-header">
+                    <h2>TWARZ</h2>
+                </div>
+                
+                <div class="form-section">
+                    <!-- Cechy twarzy -->
+                    <div class="form-group">
+                        <label for="nose-width">Szerokość nosa</label>
+                        <div class="slider-control">
+                            <input type="range" id="nose-width" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nose-height">Wysokość nosa</label>
+                        <div class="slider-control">
+                            <input type="range" id="nose-height" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nose-length">Długość nosa</label>
+                        <div class="slider-control">
+                            <input type="range" id="nose-length" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nose-bridge">Grzbiet nosa</label>
+                        <div class="slider-control">
+                            <input type="range" id="nose-bridge" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nose-tip">Czubek nosa</label>
+                        <div class="slider-control">
+                            <input type="range" id="nose-tip" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nose-bridge-shift">Przesunięcie grzbietu nosa</label>
+                        <div class="slider-control">
+                            <input type="range" id="nose-bridge-shift" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="brow-height">Wysokość brwi</label>
+                        <div class="slider-control">
+                            <input type="range" id="brow-height" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="brow-width">Szerokość brwi</label>
+                        <div class="slider-control">
+                            <input type="range" id="brow-width" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cheekbone-height">Wysokość kości policzkowych</label>
+                        <div class="slider-control">
+                            <input type="range" id="cheekbone-height" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cheekbone-width">Szerokość kości policzkowych</label>
+                        <div class="slider-control">
+                            <input type="range" id="cheekbone-width" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cheeks-width">Szerokość policzków</label>
+                        <div class="slider-control">
+                            <input type="range" id="cheeks-width" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="eyes">Oczy</label>
+                        <div class="slider-control">
+                            <input type="range" id="eyes" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lips">Usta</label>
+                        <div class="slider-control">
+                            <input type="range" id="lips" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="jaw-width">Szerokość szczęki</label>
+                        <div class="slider-control">
+                            <input type="range" id="jaw-width" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="jaw-height">Wysokość szczęki</label>
+                        <div class="slider-control">
+                            <input type="range" id="jaw-height" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="chin-length">Długość podbródka</label>
+                        <div class="slider-control">
+                            <input type="range" id="chin-length" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="chin-position">Pozycja podbródka</label>
+                        <div class="slider-control">
+                            <input type="range" id="chin-position" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="chin-width">Szerokość podbródka</label>
+                        <div class="slider-control">
+                            <input type="range" id="chin-width" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="chin-shape">Kształt podbródka</label>
+                        <div class="slider-control">
+                            <input type="range" id="chin-shape" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="neck-width">Szerokość szyi</label>
+                        <div class="slider-control">
+                            <input type="range" id="neck-width" min="-1" max="1" step="0.01" value="0">
+                            <span class="slider-value">0.00</span>
+                        </div>
+                    </div>
+
+                    <!-- Head Overlays -->
+                    <div class="divider">
+                        <span>DETALE TWARZY</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>SKAZY</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="overlay-0">◀</button>
+                            <input type="number" id="overlay-0" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="overlay-0">▶</button>
+                        </div>
+                        <div class="overlay-control">
+                            <label>PRZEZROCZYSTOŚĆ</label>
+                            <input type="range" id="overlay-0-opacity" min="0" max="1" step="0.01" value="1">
+                            <span class="slider-value">1.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group male-only">
+                        <label>ZAROST</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="overlay-1">◀</button>
+                            <input type="number" id="overlay-1" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="overlay-1">▶</button>
+                        </div>
+                        <div class="overlay-control">
+                            <label>PRZEZROCZYSTOŚĆ</label>
+                            <input type="range" id="overlay-1-opacity" min="0" max="1" step="0.01" value="1">
+                            <span class="slider-value">1.00</span>
+                        </div>
+                        <div class="overlay-control">
+                            <label>KOLOR</label>
+                            <div class="arrow-control">
+                                <button class="arrow-btn" data-action="decrement" data-target="overlay-1-color1">◀</button>
+                                <input type="number" id="overlay-1-color1" value="0" readonly>
+                                <button class="arrow-btn" data-action="increment" data-target="overlay-1-color1">▶</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>BRWII</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="overlay-2">◀</button>
+                            <input type="number" id="overlay-2" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="overlay-2">▶</button>
+                        </div>
+                        <div class="overlay-control">
+                            <label>PRZEZROCZYSTOŚĆ</label>
+                            <input type="range" id="overlay-2-opacity" min="0" max="1" step="0.01" value="1">
+                            <span class="slider-value">1.00</span>
+                        </div>
+                        <div class="overlay-control">
+                            <label>KOLOR</label>
+                            <div class="arrow-control">
+                                <button class="arrow-btn" data-action="decrement" data-target="overlay-2-color1">◀</button>
+                                <input type="number" id="overlay-2-color1" value="0" readonly>
+                                <button class="arrow-btn" data-action="increment" data-target="overlay-2-color1">▶</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>STARZENIE</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="overlay-3">◀</button>
+                            <input type="number" id="overlay-3" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="overlay-3">▶</button>
+                        </div>
+                        <div class="overlay-control">
+                            <label>PRZEZROCZYSTOŚĆ</label>
+                            <input type="range" id="overlay-3-opacity" min="0" max="1" step="0.01" value="1">
+                            <span class="slider-value">1.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group female-only">
+                        <label>MAKIJAŻ</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="overlay-4">◀</button>
+                            <input type="number" id="overlay-4" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="overlay-4">▶</button>
+                        </div>
+                        <div class="overlay-control">
+                            <label>PRZEZROCZYSTOŚĆ</label>
+                            <input type="range" id="overlay-4-opacity" min="0" max="1" step="0.01" value="1">
+                            <span class="slider-value">1.00</span>
+                        </div>
+                        <div class="overlay-control">
+                            <label>KOLOR</label>
+                            <div class="arrow-control">
+                                <button class="arrow-btn" data-action="decrement" data-target="overlay-4-color1">◀</button>
+                                <input type="number" id="overlay-4-color1" value="0" readonly>
+                                <button class="arrow-btn" data-action="increment" data-target="overlay-4-color1">▶</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group female-only">
+                        <label>RÓŹ</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="overlay-5">◀</button>
+                            <input type="number" id="overlay-5" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="overlay-5">▶</button>
+                        </div>
+                        <div class="overlay-control">
+                            <label>PRZEZROCZYSTOŚĆ</label>
+                            <input type="range" id="overlay-5-opacity" min="0" max="1" step="0.01" value="1">
+                            <span class="slider-value">1.00</span>
+                        </div>
+                        <div class="overlay-control">
+                            <label>KOLOR</label>
+                            <div class="arrow-control">
+                                <button class="arrow-btn" data-action="decrement" data-target="overlay-5-color1">◀</button>
+                                <input type="number" id="overlay-5-color1" value="0" readonly>
+                                <button class="arrow-btn" data-action="increment" data-target="overlay-5-color1">▶</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>CERA</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="overlay-6">◀</button>
+                            <input type="number" id="overlay-6" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="overlay-6">▶</button>
+                        </div>
+                        <div class="overlay-control">
+                            <label>PRZEZROCZYSTOŚĆ</label>
+                            <input type="range" id="overlay-6-opacity" min="0" max="1" step="0.01" value="1">
+                            <span class="slider-value">1.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>ŚLADY OPALANIA</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="overlay-7">◀</button>
+                            <input type="number" id="overlay-7" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="overlay-7">▶</button>
+                        </div>
+                        <div class="overlay-control">
+                            <label>PRZEZROCZYSTOŚĆ</label>
+                            <input type="range" id="overlay-7-opacity" min="0" max="1" step="0.01" value="1">
+                            <span class="slider-value">1.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group female-only">
+                        <label>SZMINKA</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="overlay-8">◀</button>
+                            <input type="number" id="overlay-8" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="overlay-8">▶</button>
+                        </div>
+                        <div class="overlay-control">
+                            <label>PRZEZROCZYSTOŚĆ</label>
+                            <input type="range" id="overlay-8-opacity" min="0" max="1" step="0.01" value="1">
+                            <span class="slider-value">1.00</span>
+                        </div>
+                        <div class="overlay-control">
+                            <label>KOLOR</label>
+                            <div class="arrow-control">
+                                <button class="arrow-btn" data-action="decrement" data-target="overlay-8-color1">◀</button>
+                                <input type="number" id="overlay-8-color1" value="0" readonly>
+                                <button class="arrow-btn" data-action="increment" data-target="overlay-8-color1">▶</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>PIEGI/PIEPRZYKI</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="overlay-9">◀</button>
+                            <input type="number" id="overlay-9" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="overlay-9">▶</button>
+                        </div>
+                        <div class="overlay-control">
+                            <label>PRZEZROCZYSTOŚĆ</label>
+                            <input type="range" id="overlay-9-opacity" min="0" max="1" step="0.01" value="1">
+                            <span class="slider-value">1.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Zakładka WŁOSY -->
+            <div class="tab-content" id="tab-wlosy">
+                <div class="content-header">
+                    <h2>WŁOSY</h2>
+                </div>
+                
+                <div class="form-section">
+                    <div class="form-group">
+                        <label>Fryzura</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="comp-2">◀</button>
+                            <input type="number" id="comp-2" value="0" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="comp-2">▶</button>
+                        </div>
+                        <div class="variant-control">
+                            <span class="variant-label">Wariant</span>
+                            <button class="variant-btn" data-action="decrement" data-target="comp-2-tex">◀</button>
+                            <div id="comp-2-tex-display" class="variant-display">0</div>
+                            <button class="variant-btn" data-action="increment" data-target="comp-2-tex">▶</button>
+                            <input type="hidden" id="comp-2-tex" value="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>KOLOR WŁOSÓW</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="hair-color">◀</button>
+                            <input type="number" id="hair-color" value="0" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="hair-color">▶</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Zakładka CIAŁO -->
+            <div class="tab-content" id="tab-cialo">
+                <div class="content-header">
+                    <h2>CIAŁO</h2>
+                </div>
+                
+                <div class="form-section">
+                    <div class="form-group">
+                        <label>TORS</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="comp-3">◀</button>
+                            <input type="number" id="comp-3" value="0" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="comp-3">▶</button>
+                        </div>
+                    </div>
+
+                    <div class="form-group male-only">
+                        <label>WŁOSY NA KLATCE PIERSIOWEJ</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="overlay-10">◀</button>
+                            <input type="number" id="overlay-10" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="overlay-10">▶</button>
+                        </div>
+                        <div class="overlay-control">
+                            <label>PRZEZROCZYSTOŚĆ</label>
+                            <input type="range" id="overlay-10-opacity" min="0" max="1" step="0.01" value="1">
+                            <span class="slider-value">1.00</span>
+                        </div>
+                        <div class="overlay-control">
+                            <label>KOLOR</label>
+                            <div class="arrow-control">
+                                <button class="arrow-btn" data-action="decrement" data-target="overlay-10-color1">◀</button>
+                                <input type="number" id="overlay-10-color1" value="0" readonly>
+                                <button class="arrow-btn" data-action="increment" data-target="overlay-10-color1">▶</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>SKAZY NA CIELE</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="overlay-11">◀</button>
+                            <input type="number" id="overlay-11" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="overlay-11">▶</button>
+                        </div>
+                        <div class="overlay-control">
+                            <label>PRZEZROCZYSTOŚĆ</label>
+                            <input type="range" id="overlay-11-opacity" min="0" max="1" step="0.01" value="1">
+                            <span class="slider-value">1.00</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>DODAJ SKAZY NA CIELE</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="overlay-12">◀</button>
+                            <input type="number" id="overlay-12" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="overlay-12">▶</button>
+                        </div>
+                        <div class="overlay-control">
+                            <label>PRZEZROCZYSTOŚĆ</label>
+                            <input type="range" id="overlay-12-opacity" min="0" max="1" step="0.01" value="1">
+                            <span class="slider-value">1.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Zakładka DODATKI -->
+            <div class="tab-content" id="tab-dodatki">
+                <div class="content-header">
+                    <h2>DODATKI</h2>
+                </div>
+                
+                <div class="form-section">
+                    <div class="form-group">
+                        <label>KASK/CZAPKA</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="prop-0">◀</button>
+                            <input type="number" id="prop-0" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="prop-0">▶</button>
+                        </div>
+                        <div class="variant-control">
+                            <span class="variant-label">Wariant</span>
+                            <button class="variant-btn" data-action="decrement" data-target="prop-0-tex">◀</button>
+                            <div id="prop-0-tex-display" class="variant-display">0</div>
+                            <button class="variant-btn" data-action="increment" data-target="prop-0-tex">▶</button>
+                            <input type="hidden" id="prop-0-tex" value="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>OKULARY</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="prop-1">◀</button>
+                            <input type="number" id="prop-1" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="prop-1">▶</button>
+                        </div>
+                        <div class="variant-control">
+                            <span class="variant-label">Wariant</span>
+                            <button class="variant-btn" data-action="decrement" data-target="prop-1-tex">◀</button>
+                            <div id="prop-1-tex-display" class="variant-display">0</div>
+                            <button class="variant-btn" data-action="increment" data-target="prop-1-tex">▶</button>
+                            <input type="hidden" id="prop-1-tex" value="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>KOLCZYKI</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="prop-2">◀</button>
+                            <input type="number" id="prop-2" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="prop-2">▶</button>
+                        </div>
+                        <div class="variant-control">
+                            <span class="variant-label">Wariant</span>
+                            <button class="variant-btn" data-action="decrement" data-target="prop-2-tex">◀</button>
+                            <div id="prop-2-tex-display" class="variant-display">0</div>
+                            <button class="variant-btn" data-action="increment" data-target="prop-2-tex">▶</button>
+                            <input type="hidden" id="prop-2-tex" value="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>ZEGAREK</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="prop-6">◀</button>
+                            <input type="number" id="prop-6" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="prop-6">▶</button>
+                        </div>
+                        <div class="variant-control">
+                            <span class="variant-label">Wariant</span>
+                            <button class="variant-btn" data-action="decrement" data-target="prop-6-tex">◀</button>
+                            <div id="prop-6-tex-display" class="variant-display">0</div>
+                            <button class="variant-btn" data-action="increment" data-target="prop-6-tex">▶</button>
+                            <input type="hidden" id="prop-6-tex" value="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>BRANZOLETKA</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="prop-7">◀</button>
+                            <input type="number" id="prop-7" value="-1" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="prop-7">▶</button>
+                        </div>
+                        <div class="variant-control">
+                            <span class="variant-label">Wariant</span>
+                            <button class="variant-btn" data-action="decrement" data-target="prop-7-tex">◀</button>
+                            <div id="prop-7-tex-display" class="variant-display">0</div>
+                            <button class="variant-btn" data-action="increment" data-target="prop-7-tex">▶</button>
+                            <input type="hidden" id="prop-7-tex" value="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Zakładka UBRANIA -->
+            <div class="tab-content" id="tab-ubrania">
+                <div class="content-header">
+                    <h2>UBRANIA</h2>
+                </div>
+                
+                <div class="form-section">
+                    <div class="form-group">
+                        <label>MASKA</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="comp-1">◀</button>
+                            <input type="number" id="comp-1" value="0" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="comp-1">▶</button>
+                        </div>
+                        <div class="variant-control">
+                            <span class="variant-label">Wariant</span>
+                            <button class="variant-btn" data-action="decrement" data-target="comp-1-tex">◀</button>
+                            <div id="comp-1-tex-display" class="variant-display">0</div>
+                            <button class="variant-btn" data-action="increment" data-target="comp-1-tex">▶</button>
+                            <input type="hidden" id="comp-1-tex" value="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>SPODNIE</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="comp-4">◀</button>
+                            <input type="number" id="comp-4" value="0" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="comp-4">▶</button>
+                        </div>
+                        <div class="variant-control">
+                            <span class="variant-label">Wariant</span>
+                            <button class="variant-btn" data-action="decrement" data-target="comp-4-tex">◀</button>
+                            <div id="comp-4-tex-display" class="variant-display">0</div>
+                            <button class="variant-btn" data-action="increment" data-target="comp-4-tex">▶</button>
+                            <input type="hidden" id="comp-4-tex" value="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>BUTY</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="comp-6">◀</button>
+                            <input type="number" id="comp-6" value="0" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="comp-6">▶</button>
+                        </div>
+                        <div class="variant-control">
+                            <span class="variant-label">Wariant</span>
+                            <button class="variant-btn" data-action="decrement" data-target="comp-6-tex">◀</button>
+                            <div id="comp-6-tex-display" class="variant-display">0</div>
+                            <button class="variant-btn" data-action="increment" data-target="comp-6-tex">▶</button>
+                            <input type="hidden" id="comp-6-tex" value="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>AKCESORIA</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="comp-7">◀</button>
+                            <input type="number" id="comp-7" value="0" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="comp-7">▶</button>
+                        </div>
+                        <div class="variant-control">
+                            <span class="variant-label">Wariant</span>
+                            <button class="variant-btn" data-action="decrement" data-target="comp-7-tex">◀</button>
+                            <div id="comp-7-tex-display" class="variant-display">0</div>
+                            <button class="variant-btn" data-action="increment" data-target="comp-7-tex">▶</button>
+                            <input type="hidden" id="comp-7-tex" value="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>PODKOSZULEK</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="comp-8">◀</button>
+                            <input type="number" id="comp-8" value="0" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="comp-8">▶</button>
+                        </div>
+                        <div class="variant-control">
+                            <span class="variant-label">Wariant</span>
+                            <button class="variant-btn" data-action="decrement" data-target="comp-8-tex">◀</button>
+                            <div id="comp-8-tex-display" class="variant-display">0</div>
+                            <button class="variant-btn" data-action="increment" data-target="comp-8-tex">▶</button>
+                            <input type="hidden" id="comp-8-tex" value="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>KAMIZELKA</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="comp-9">◀</button>
+                            <input type="number" id="comp-9" value="0" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="comp-9">▶</button>
+                        </div>
+                        <div class="variant-control">
+                            <span class="variant-label">Wariant</span>
+                            <button class="variant-btn" data-action="decrement" data-target="comp-9-tex">◀</button>
+                            <div id="comp-9-tex-display" class="variant-display">0</div>
+                            <button class="variant-btn" data-action="increment" data-target="comp-9-tex">▶</button>
+                            <input type="hidden" id="comp-9-tex" value="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>NAKLEJKA</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="comp-10">◀</button>
+                            <input type="number" id="comp-10" value="0" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="comp-10">▶</button>
+                        </div>
+                        <div class="variant-control">
+                            <span class="variant-label">Wariant</span>
+                            <button class="variant-btn" data-action="decrement" data-target="comp-10-tex">◀</button>
+                            <div id="comp-10-tex-display" class="variant-display">0</div>
+                            <button class="variant-btn" data-action="increment" data-target="comp-10-tex">▶</button>
+                            <input type="hidden" id="comp-10-tex" value="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>GÓRA</label>
+                        <div class="arrow-control">
+                            <button class="arrow-btn" data-action="decrement" data-target="comp-11">◀</button>
+                            <input type="number" id="comp-11" value="0" readonly>
+                            <button class="arrow-btn" data-action="increment" data-target="comp-11">▶</button>
+                        </div>
+                        <div class="variant-control">
+                            <span class="variant-label">Wariant</span>
+                            <button class="variant-btn" data-action="decrement" data-target="comp-11-tex">◀</button>
+                            <div id="comp-11-tex-display" class="variant-display">0</div>
+                            <button class="variant-btn" data-action="increment" data-target="comp-11-tex">▶</button>
+                            <input type="hidden" id="comp-11-tex" value="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer z przyciskami -->
+        <div class="creator-footer">
+            <button class="btn btn-secondary" id="btn-close" title="Zamknij">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                </svg>
+                <span>Zamknij</span>
+            </button>
+            <button class="btn btn-primary" id="btn-create" title="Zapisz postać">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                </svg>
+                <span>Zapisz</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Camera Controls - oddzielny panel na dole ekranu -->
+    <div class="camera-controls-container">
+        <div class="camera-controls">
+            <div class="camera-slider-group">
+                <label for="camera-rotation">Rotacja</label>
+                <input type="range" id="camera-rotation" min="-180" max="180" step="1" value="0">
+                <span class="slider-value" id="camera-rotation-value">0°</span>
+            </div>
+            <div class="camera-slider-group">
+                <label for="camera-fov">FOV</label>
+                <input type="range" id="camera-fov" min="30" max="120" step="1" value="50">
+                <span class="slider-value" id="camera-fov-value">50°</span>
+            </div>
+            <div class="camera-buttons">
+                <button class="camera-btn" data-position="FACE" title="Twarz">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14c-2.33 0-4.31-1.46-5.11-3.5h10.22c-.8 2.04-2.78 3.5-5.11 3.5z"/>
+                    </svg>
+                </button>
+                <button class="camera-btn" data-position="BODY" title="Cała postać">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C8.5 2 6 4.5 6 8c0 2.5 1.5 4.5 3.5 5.5V18h5v-4.5C16.5 12.5 18 10.5 18 8c0-3.5-2.5-6-6-6zm0 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

@@ -78,5 +78,10 @@ namespace LSDM.Infrastracture.Repositories
             user.LastIpAddress = ipAddress;
             await _context.SaveChangesAsync();
         }
+
+        public async Task<bool> ExistsAsync(string userId)
+        {
+            return await _context.Users.AnyAsync(u => u.Id == userId);
+        }
     }
 }

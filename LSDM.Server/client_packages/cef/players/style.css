@@ -96,19 +96,14 @@ body {
     text-align: center;
 }
 
-/* exp gracza */
+
 .player-exp {
     font-size: 0.9rem;
     color: #aaa;
-    flex: 1;  /* zajmuje 1/4 szerokości */
+    flex: 1;
     text-align: center;
 }
 
-/* ================================
-   Media Queries dla popularnych rozdzielczości
-================================= */
-
-/* 800x600 */
 @media screen and (max-width: 800px), screen and (max-height: 600px) {
     .menu { width: 95%; height: 90%; max-height: 480px; }
     .header { font-size: 1rem; padding: 0.6em 0.8em; }

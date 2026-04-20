@@ -13,6 +13,7 @@ namespace LSDM.Domain.Entities
         public ServerRole ServerRole { get; set; } = null!;
         public List<Ban> Bans { get; set; } = new();
         public List<Ban> AssignedBans { get; set; } = new();
+        public Outfit Outfit { get; set; } = null!;
         public string LastSocialClubId { get; set; } = null!;
         public string LastHwid { get; set; } = null!;
         public string LastIpAddress { get; set; } = null!;

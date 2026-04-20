@@ -1,0 +1,6 @@
+const CHARACTER_LIMITS = {
+    FACE_FEATURE_MAX_ID: 19,
+    EYE_COLORS_MAX_ID: 31,
+    HAIR_COLOR_MAX_ID: 63,
+};
+module.exports = CHARACTER_LIMITS;

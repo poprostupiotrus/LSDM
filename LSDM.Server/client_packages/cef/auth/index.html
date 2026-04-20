@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Server</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="header">
+                <span>LOGOWANIE</span>
+            </div>
+            
+            <form id="loginForm" onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label for="username">Nazwa użytkownika</label>
+                    <input 
+                        type="text" 
+                        id="username" 
+                        name="username" 
+                        placeholder="Wpisz swoją nazwę"
+                        autocomplete="username"
+                        required
+                    >
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Hasło</label>
+                    <div class="password-input">
+                        <input 
+                            type="password" 
+                            id="password" 
+                            name="password" 
+                            placeholder="Wpisz swoje hasło"
+                            autocomplete="current-password"
+                            required
+                        >
+                        <button type="button" class="toggle-password" onclick="togglePassword()">
+                            &#128065;
+                        </button>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn-login">
+                    <span>Zaloguj się</span>
+                </button>
+            </form>
+            
+            <div class="footer">
+                <p>Nie masz konta?</p>
+                <button class="btn-register" onclick="showRegister()">
+                    Zarejestruj się
+                </button>
+            </div>
+            
+            <div id="message" class="message"></div>
+        </div>
+    </div>
+
+    <div class="login-container" id="registerContainer" style="display: none;">
+        <div class="login-box">
+            <div class="header">
+                <span>REJESTRACJA</span>
+            </div>
+            
+            <form id="registerForm" onsubmit="handleRegister(event)">
+                <div class="form-group">
+                    <label for="reg-username">Nazwa użytkownika</label>
+                    <input 
+                        type="text" 
+                        id="reg-username" 
+                        name="username" 
+                        placeholder="Wpisz nazwę użytkownika"
+                        autocomplete="username"
+                        required
+                    >
+                </div>
+                
+                <div class="form-group">
+                    <label for="reg-password">Hasło</label>
+                    <div class="password-input">
+                        <input 
+                            type="password" 
+                            id="reg-password" 
+                            name="password" 
+                            placeholder="Wpisz hasło"
+                            autocomplete="new-password"
+                            required
+                        >
+                        <button type="button" class="toggle-password" onclick="toggleRegisterPassword()">
+                            &#128065;
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reg-confirm-password">Potwierdź hasło</label>
+                    <div class="password-input">
+                        <input 
+                            type="password" 
+                            id="reg-confirm-password" 
+                            name="confirm-password" 
+                            placeholder="Potwierdź hasło"
+                            autocomplete="new-password"
+                            required
+                        >
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn-login">
+                    <span>Zarejestruj się</span>
+                </button>
+            </form>
+            
+            <div class="footer">
+                <p>Masz już konto?</p>
+                <button class="btn-register" onclick="showLogin()">
+                    Zaloguj się
+                </button>
+            </div>
+            
+            <div id="register-message" class="message"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
