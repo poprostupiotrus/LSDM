@@ -1,6 +1,8 @@
 const COLORS = require('../../config/colors');
 const playerUtils = require('../../utils/playerUtils');
-mp.events.addCommand("pm", (player, fullText, playerId, ...message) => {
+mp.events.addCommand("pm", privateMessageHandler);
+
+function privateMessageHandler(player, fullText, playerId, ...message) {
     if(!playerId || message.length === 0)
     {
         player.outputChatBox("Użycie: /pm id_gracza wiadomosc.");
@@ -29,4 +31,4 @@ mp.events.addCommand("pm", (player, fullText, playerId, ...message) => {
     }
     targetPlayer.outputChatBox(`${COLORS.ORANGE}[PM od ${player.name}(${player.id})]: ${msg}`);
     player.outputChatBox(`${COLORS.YELLOW}[PM do ${targetPlayer.name}(${targetPlayer.id})]: ${msg}`);
-});
+}

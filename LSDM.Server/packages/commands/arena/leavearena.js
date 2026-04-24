@@ -3,5 +3,6 @@ mp.events.addCommand('leavearena', (player) => {
     if (arenaManager.leaveArena(player)) {
         return;
     }
-    player.outputChatBox(`!{#ff0000} Nie jesteś w arenie!`);
+    const message = 'Musisz być na arenie, aby móc z niej wyjść.'
+    player.call('client:showError', [message]);
 });

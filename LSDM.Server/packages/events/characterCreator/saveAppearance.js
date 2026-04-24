@@ -1,4 +1,5 @@
 const characterCreator = require('../../systems/character_creator/characterCreator');
+const COLORS = require('../../config/colors');
 mp.events.add('server:saveAppearance', (player, data) => {
     const characterData = JSON.parse(data);
     if(characterData.model === undefined || characterData.components === undefined || characterData.props === undefined 
@@ -30,5 +31,5 @@ mp.events.add('server:saveAppearance', (player, data) => {
     });
     characterCreator.saveOutfit(player);
     characterCreator.finish(player);
-    player.outputChatBox('ZAPISANO POSTAĆ!');
+    player.outputChatBox(`${COLORS.BLUE}[LSDM:Kreator Postaci] ${COLORS.WHITE}Wygląd postaci został zapisany.`);
 });

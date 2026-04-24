@@ -4,5 +4,7 @@ const WORLD_OFFSETS = {
     ARENA: 2000,
     DUEL: 3000,
     CHARACTER_CREATOR: 4000,
-}
+    FREEROAM: 5000,
+    GANG_WAR: 6000
+};
 module.exports = WORLD_OFFSETS;

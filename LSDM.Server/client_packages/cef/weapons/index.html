@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weapon Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="header">
+            <span>WYBÓR BRONI</span>
+            <button class="close" onclick="closeMenu()">✕</button>
+        </div>
+        <div class="search-container">
+            <input type="text" id="weaponSearch" placeholder="Szukaj broni..." autocomplete="off">
+            <button class="clear-search" id="clearSearch" onclick="clearSearch()">✕</button>
+        </div>
+        <div class="weapon-list" id="weaponList">
+            <!-- Lista broni generowana dynamicznie -->
+        </div>
+        <div class="footer">
+            <span class="hint">Naciśnij K aby zamknąć</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

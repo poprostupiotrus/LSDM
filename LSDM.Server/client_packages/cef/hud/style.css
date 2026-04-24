@@ -10,7 +10,17 @@ body {
     overflow: hidden;
     user-select: none;
 }
-
+.general-information-container {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+}
+.lsdm-logo {
+    width: 300px;
+}
 .notifications-container {
     position: absolute;
     bottom: 30px;

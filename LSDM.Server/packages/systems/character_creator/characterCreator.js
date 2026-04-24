@@ -4,6 +4,7 @@ const characterMapper = require('../../api/mappers/characterMapper');
 const outfitApi = require('../../api/outfit.api');
 const playerUtils = require('../../utils/playerUtils');
 const WORLD_OFFSETS = require('../../config/worldOffsets');
+const LOCATION_TYPES = require('../../config/locationTypes');
 
 class CharacterCreator {
     constructor() {
@@ -27,8 +28,10 @@ class CharacterCreator {
             hairColor: character.hairColor,
             faceFeatures: character.faceFeatures
         };
+        player.runtime.location = {};
+        player.runtime.location.type = LOCATION_TYPES.CHARACTER_CREATOR;
         player.dimension = WORLD_OFFSETS.CHARACTER_CREATOR + player.id;
-        player.position = this.creatorLocation.position;
+        player.spawn(this.creatorLocation.position);
         player.rotation = this.creatorLocation.rotation;
         player.heading = this.creatorLocation.rotation.z;
         player.call('client:freezePlayer', [true]);
@@ -36,6 +39,7 @@ class CharacterCreator {
         player.call('client:showGtaUi', [false]);
         player.call('client:openCharacterCreatorMenu', [characterData]);
         player.call('client:setPlayerHeadingOffset');
+        player.call('client:closeHud')
         this.setupCamera(player);
     }
     finish(player) {
@@ -44,6 +48,7 @@ class CharacterCreator {
         player.call('client:setPlayerRagdoll', [true]);
         player.call('client:closeCharacterCreatorMenu');
         player.call('client:showGtaUi', [true]);
+        player.call('client:openHud');
         playerUtils.teleportPlayerToLobby(player);
     }
     updateAppearance(player, type, data) {
@@ -139,7 +144,7 @@ class CharacterCreator {
         }
     }
     setupCamera(player) {
-        const pos = player.position;
+        const pos = this.creatorLocation.position;
         const heading = player.heading * (Math.PI / 180);
         
         const camX = pos.x + (Math.sin(-heading) * this.creatorLocation.cameraDistance);

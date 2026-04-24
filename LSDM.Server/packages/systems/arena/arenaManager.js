@@ -1,6 +1,7 @@
 const Arena = require('./arena.js');
 const ArenaConfig = require('./config.js');
 const LOCATION_TYPES = require('../../config/locationTypes.js');
+const playerUtils = require('../../utils/playerUtils.js');
 
 class ArenaManager {
     constructor() {
@@ -95,10 +96,7 @@ class ArenaManager {
         }
     }
     teleportToLobby(player) {
-        const lobbySpawn = new mp.Vector3(200, 300, 100);
-        player.spawn(lobbySpawn);
-        player.dimension = 0;
-        player.runtime.location = { type: LOCATION_TYPES.LOBBY };
+        playerUtils.teleportPlayerToLobby(player);
     }
     getStats() {
         const stats = [];

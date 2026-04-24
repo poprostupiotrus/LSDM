@@ -5,3 +5,4 @@ require('./events/heading');
 require('./events/setPlayerRagdoll');
 require('./events/setCollision');
 require('./events/enableFlyMode');
+require('./events/test');

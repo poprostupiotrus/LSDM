@@ -1,5 +1,6 @@
 const arenaManager = require('../../systems/arena/arenaManager');
 const LOCATION_TYPES = require('../../config/locationTypes');
+const playerUtils = require('../../utils/playerUtils');
 
 mp.events.addCommand('joinarena', (player, arenaId) => {
     const id = parseInt(arenaId);
@@ -8,9 +9,10 @@ mp.events.addCommand('joinarena', (player, arenaId) => {
         player.outputChatBox(`!{#ffffff} Dostępne areny: /arenas`);
         return;
     }
-    if(player.runtime.location.type === LOCATION_TYPES.ARENA)
+    if(!playerUtils.isPlayerInLobby(player))
     {
-        player.outputChatBox(`Musisz wrócić do lobby, aby móc wejść do areny.`)
+        const message = 'Musisz wrócić do lobby, aby móc wejść do areny.'
+        player.call('client:showError', [message]);
         return;
     }
     arenaManager.joinArena(player, id);
