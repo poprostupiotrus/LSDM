@@ -15,6 +15,7 @@ namespace LSDM.Infrastracture.Persistence
         public DbSet<FaceFeature> FaceFeatures { get; set; }
         public DbSet<HeadOverlay> HeadOverlays { get; set; }
         public DbSet<HeadBlend> HeadBlends { get; set; }
+        public DbSet<ProcessedEvent> ProcessedEvents { get; set; }
         public LSDMDbContext(DbContextOptions options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

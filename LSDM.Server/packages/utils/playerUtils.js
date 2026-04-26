@@ -54,5 +54,14 @@ class PlayerUtils
     isPlayerInArena(player) {
         return player.runtime.location.type === LOCATION_TYPES.ARENA;
     }
+    isPlayerInGangWar(player) {
+        return player.runtime.location.type === LOCATION_TYPES.GANG_WAR;
+    }
+    isPlayerInDuel(player) {
+        return player.runtime.location.type === LOCATION_TYPES.DUEL;
+    }
+    IsKillDeathTracked(player) {
+        return this.isPlayerInArena(player) || this.isPlayerInGangWar(player) || this.isPlayerInDuel(player);
+    }
 }
 module.exports = new PlayerUtils();

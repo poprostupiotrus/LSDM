@@ -36,3 +36,15 @@ C:\Users\komputerrozy\Desktop\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\LSDM.Dom
 C:\Users\komputerrozy\Desktop\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\refint\LSDM.Domain.dll
 C:\Users\komputerrozy\Desktop\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\LSDM.Domain.pdb
 C:\Users\komputerrozy\Desktop\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\ref\LSDM.Domain.dll
+C:\Users\komputerrozy\Desktop\LSDM-backup\LSDM.Backend2\LSDM.Backend\LSDM.Domain\bin\Debug\net8.0\LSDM.Domain.deps.json
+C:\Users\komputerrozy\Desktop\LSDM-backup\LSDM.Backend2\LSDM.Backend\LSDM.Domain\bin\Debug\net8.0\LSDM.Domain.dll
+C:\Users\komputerrozy\Desktop\LSDM-backup\LSDM.Backend2\LSDM.Backend\LSDM.Domain\bin\Debug\net8.0\LSDM.Domain.pdb
+C:\Users\komputerrozy\Desktop\LSDM-backup\LSDM.Backend2\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\LSDM.Domain.csproj.AssemblyReference.cache
+C:\Users\komputerrozy\Desktop\LSDM-backup\LSDM.Backend2\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\LSDM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\komputerrozy\Desktop\LSDM-backup\LSDM.Backend2\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\LSDM.Domain.AssemblyInfoInputs.cache
+C:\Users\komputerrozy\Desktop\LSDM-backup\LSDM.Backend2\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\LSDM.Domain.AssemblyInfo.cs
+C:\Users\komputerrozy\Desktop\LSDM-backup\LSDM.Backend2\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\LSDM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\komputerrozy\Desktop\LSDM-backup\LSDM.Backend2\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\LSDM.Domain.dll
+C:\Users\komputerrozy\Desktop\LSDM-backup\LSDM.Backend2\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\refint\LSDM.Domain.dll
+C:\Users\komputerrozy\Desktop\LSDM-backup\LSDM.Backend2\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\LSDM.Domain.pdb
+C:\Users\komputerrozy\Desktop\LSDM-backup\LSDM.Backend2\LSDM.Backend\LSDM.Domain\obj\Debug\net8.0\ref\LSDM.Domain.dll

@@ -4,6 +4,7 @@ const LOCATION_TYPES = {
     FREEROAM: "FREEROAM",
     LOBBY: "LOBBY",
     ARENA: "ARENA",
-    GANG_WAR: "GANG_WAR"
+    GANG_WAR: "GANG_WAR",
+    DUEL: "DUEL"
 }
 module.exports = LOCATION_TYPES;

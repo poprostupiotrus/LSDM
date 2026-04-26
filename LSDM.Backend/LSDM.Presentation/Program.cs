@@ -1,3 +1,5 @@
+using LSDM.Application.Events.Handlers;
+using LSDM.Application.Events;
 using LSDM.Application.Interfaces;
 using LSDM.Application.Services;
 using LSDM.Domain.Interfaces;
@@ -11,6 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using LSDM.Infrastracture.WebSockets;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,7 +40,14 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IBanService, BanService>();
 builder.Services.AddScoped<IOutfitService, OutfitService>();
 builder.Services.AddScoped<IOutfitRepository, OutfitRepository>();
-
+builder.Services.AddScoped<IStatsService, StatsService>();
+builder.Services.AddScoped<IStatsRepository, StatsRepository>();
+builder.Services.AddScoped<IGameEventHandler, KillEventHandler>();
+builder.Services.AddScoped<IGameEventHandler, DeathEventHandler>();
+builder.Services.AddScoped<EventDispatcher>();
+builder.Services.AddScoped<WsConnectionHandler>();
+builder.Services.AddScoped<IProcessedEventRepository, ProcessedEventRepository>();
+builder.Services.AddHostedService<ProcessedEventCleanupService>();
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.InvalidModelStateResponseFactory = context =>
@@ -131,10 +141,23 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+app.UseWebSockets();
 
 app.MapGet("/health", () =>
 {
     return Results.Ok(new { status = "Healthy" });
+});
+
+app.Map("/ws", async context =>
+{
+    if (!context.WebSockets.IsWebSocketRequest)
+    {
+        context.Response.StatusCode = 400;
+        return;
+    }
+    var socket = await context.WebSockets.AcceptWebSocketAsync();
+    var handler = context.RequestServices.GetRequiredService<WsConnectionHandler>();
+    await handler.Handle(socket);
 });
 
 app.Run();

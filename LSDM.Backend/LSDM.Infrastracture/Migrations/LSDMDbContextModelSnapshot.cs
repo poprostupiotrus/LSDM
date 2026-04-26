@@ -302,6 +302,19 @@ namespace LSDM.Infrastracture.Migrations
                     b.ToTable("OutfitProps");
                 });
 
+            modelBuilder.Entity("LSDM.Domain.Entities.ProcessedEvent", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ProcessedEvents");
+                });
+
             modelBuilder.Entity("LSDM.Domain.Entities.ServerRole", b =>
                 {
                     b.Property<int>("ServerRoleId")
